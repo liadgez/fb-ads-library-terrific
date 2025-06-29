@@ -1,0 +1,1095 @@
+{
+  "metadata": {
+    "generated_at": "2025-06-29T17:36:06.587766",
+    "total_ads": 20,
+    "enhanced_ads": 20,
+    "analysis_type": "hybrid_with_openai",
+    "cost_summary": {
+      "total_spent": 0.001175,
+      "budget_limit": 2.0,
+      "budget_remaining": 1.998825,
+      "calls_made": 20,
+      "average_cost_per_call": 5.9e-05
+    },
+    "models_used": [
+      "gpt-4o-mini"
+    ]
+  },
+  "results": [
+    {
+      "ad_id": "ad_4",
+      "original_text": "Last 24 hours! Save 70% on premium software before this deal disappears forever!",
+      "clean_text": "Last 24 hours! Save 70% on premium software before this deal disappears forever!",
+      "typology_labels": [
+        "Urgency / Scarcity",
+        "Aspirational / Lifestyle"
+      ],
+      "typology_count": 2,
+      "confidence_scores": {
+        "urgency_scarcity": 3.2,
+        "social_proof": 0.0,
+        "emotional_appeal": 0.0,
+        "value_proposition": 0.0,
+        "problem_solution": 0.0,
+        "aspirational_lifestyle": 0.9,
+        "instructional_howto": 0.0,
+        "brand_voice": 0.0
+      },
+      "text_features": {
+        "word_count": 13,
+        "char_count": 80,
+        "sentence_count": 1,
+        "all_caps_words": 0,
+        "caps_ratio": 0.025,
+        "exclamation_count": 2,
+        "question_count": 0,
+        "emoji_count": 0,
+        "number_count": 0,
+        "percentage_mentions": 0,
+        "price_mentions": 0,
+        "cta_signals": 0
+      },
+      "enhanced": true,
+      "cost_info": {
+        "session_spent": 5.8e-05,
+        "budget_remaining": 1.999942,
+        "llm_calls_made": 1
+      },
+      "llm_insights": {
+        "emotional_tone": "unknown",
+        "target_audience": "unknown",
+        "emotional_intensity": 0,
+        "brand_personality": "unknown",
+        "persuasion_approach": "unknown",
+        "metadata": {
+          "model": "gpt-4o-mini",
+          "cost": 5.804999999999999e-05,
+          "tokens_used": 210,
+          "call_duration": 2.687,
+          "timestamp": "2025-06-29T17:35:34.962166"
+        }
+      }
+    },
+    {
+      "ad_id": "ad_5",
+      "original_text": "Join over 50,000 successful entrepreneurs who've transformed their business with our platform",
+      "clean_text": "Join over 50,000 successful entrepreneurs who've transformed their business with our platform",
+      "typology_labels": [
+        "Urgency / Scarcity"
+      ],
+      "typology_count": 1,
+      "confidence_scores": {
+        "urgency_scarcity": 4.0,
+        "social_proof": 0.0,
+        "emotional_appeal": 0.0,
+        "value_proposition": 0.0,
+        "problem_solution": 0.0,
+        "aspirational_lifestyle": 0.0,
+        "instructional_howto": 0.0,
+        "brand_voice": 0.0
+      },
+      "text_features": {
+        "word_count": 12,
+        "char_count": 93,
+        "sentence_count": 1,
+        "all_caps_words": 0,
+        "caps_ratio": 0.010752688172043012,
+        "exclamation_count": 0,
+        "question_count": 0,
+        "emoji_count": 0,
+        "number_count": 0,
+        "percentage_mentions": 0,
+        "price_mentions": 0,
+        "cta_signals": 0
+      },
+      "enhanced": true,
+      "cost_info": {
+        "session_spent": 0.000116,
+        "budget_remaining": 1.999884,
+        "llm_calls_made": 2
+      },
+      "llm_insights": {
+        "emotional_tone": "unknown",
+        "target_audience": "unknown",
+        "emotional_intensity": 0,
+        "brand_personality": "unknown",
+        "persuasion_approach": "unknown",
+        "metadata": {
+          "model": "gpt-4o-mini",
+          "cost": 5.7749999999999994e-05,
+          "tokens_used": 208,
+          "call_duration": 2.125,
+          "timestamp": "2025-06-29T17:35:37.088738"
+        }
+      }
+    },
+    {
+      "ad_id": "ad_6",
+      "original_text": "Feel confident and radiant - discover the skincare routine that changed everything",
+      "clean_text": "Feel confident and radiant - discover the skincare routine that changed everything",
+      "typology_labels": [
+        "Urgency / Scarcity",
+        "Emotional Appeal"
+      ],
+      "typology_count": 2,
+      "confidence_scores": {
+        "urgency_scarcity": 4.4,
+        "social_proof": 0.0,
+        "emotional_appeal": 1.0,
+        "value_proposition": 0.0,
+        "problem_solution": 0.0,
+        "aspirational_lifestyle": 0.0,
+        "instructional_howto": 0.6,
+        "brand_voice": 0.0
+      },
+      "text_features": {
+        "word_count": 12,
+        "char_count": 82,
+        "sentence_count": 1,
+        "all_caps_words": 0,
+        "caps_ratio": 0.012195121951219513,
+        "exclamation_count": 0,
+        "question_count": 0,
+        "emoji_count": 0,
+        "number_count": 0,
+        "percentage_mentions": 0,
+        "price_mentions": 0,
+        "cta_signals": 0
+      },
+      "enhanced": true,
+      "cost_info": {
+        "session_spent": 0.000174,
+        "budget_remaining": 1.999826,
+        "llm_calls_made": 3
+      },
+      "llm_insights": {
+        "emotional_tone": "unknown",
+        "target_audience": "unknown",
+        "emotional_intensity": 0,
+        "brand_personality": "unknown",
+        "persuasion_approach": "unknown",
+        "metadata": {
+          "model": "gpt-4o-mini",
+          "cost": 5.849999999999999e-05,
+          "tokens_used": 207,
+          "call_duration": 2.207,
+          "timestamp": "2025-06-29T17:35:39.296938"
+        }
+      }
+    },
+    {
+      "ad_id": "ad_7",
+      "original_text": "Get enterprise-grade security at startup prices - 90% off your first year",
+      "clean_text": "Get enterprise-grade security at startup prices - 90% off your first year",
+      "typology_labels": [
+        "Urgency / Scarcity",
+        "Value Proposition / Deal"
+      ],
+      "typology_count": 2,
+      "confidence_scores": {
+        "urgency_scarcity": 3.6,
+        "social_proof": 0.0,
+        "emotional_appeal": 0.0,
+        "value_proposition": 1.7,
+        "problem_solution": 0.0,
+        "aspirational_lifestyle": 0.0,
+        "instructional_howto": 0.0,
+        "brand_voice": 0.0
+      },
+      "text_features": {
+        "word_count": 12,
+        "char_count": 73,
+        "sentence_count": 1,
+        "all_caps_words": 0,
+        "caps_ratio": 0.0136986301369863,
+        "exclamation_count": 0,
+        "question_count": 0,
+        "emoji_count": 0,
+        "number_count": 0,
+        "percentage_mentions": 0,
+        "price_mentions": 0,
+        "cta_signals": 0
+      },
+      "enhanced": true,
+      "cost_info": {
+        "session_spent": 0.000233,
+        "budget_remaining": 1.999767,
+        "llm_calls_made": 4
+      },
+      "llm_insights": {
+        "emotional_tone": "unknown",
+        "target_audience": "unknown",
+        "emotional_intensity": 0,
+        "brand_personality": "unknown",
+        "persuasion_approach": "unknown",
+        "metadata": {
+          "model": "gpt-4o-mini",
+          "cost": 5.8349999999999995e-05,
+          "tokens_used": 209,
+          "call_duration": 1.707,
+          "timestamp": "2025-06-29T17:35:41.005415"
+        }
+      }
+    },
+    {
+      "ad_id": "ad_8",
+      "original_text": "Tired of complex project management tools? Finally, a simple solution that just works!",
+      "clean_text": "Tired of complex project management tools? Finally, a simple solution that just works!",
+      "typology_labels": [
+        "Urgency / Scarcity",
+        "Problem / Solution Framing"
+      ],
+      "typology_count": 2,
+      "confidence_scores": {
+        "urgency_scarcity": 3.2,
+        "social_proof": 0.0,
+        "emotional_appeal": 0.0,
+        "value_proposition": 0.0,
+        "problem_solution": 2.6,
+        "aspirational_lifestyle": 0.0,
+        "instructional_howto": 0.0,
+        "brand_voice": 0.0
+      },
+      "text_features": {
+        "word_count": 13,
+        "char_count": 86,
+        "sentence_count": 1,
+        "all_caps_words": 0,
+        "caps_ratio": 0.023255813953488372,
+        "exclamation_count": 1,
+        "question_count": 1,
+        "emoji_count": 0,
+        "number_count": 0,
+        "percentage_mentions": 0,
+        "price_mentions": 0,
+        "cta_signals": 0
+      },
+      "enhanced": true,
+      "cost_info": {
+        "session_spent": 0.000292,
+        "budget_remaining": 1.999708,
+        "llm_calls_made": 5
+      },
+      "llm_insights": {
+        "emotional_tone": "unknown",
+        "target_audience": "unknown",
+        "emotional_intensity": 0,
+        "brand_personality": "unknown",
+        "persuasion_approach": "unknown",
+        "metadata": {
+          "model": "gpt-4o-mini",
+          "cost": 5.8949999999999996e-05,
+          "tokens_used": 210,
+          "call_duration": 2.136,
+          "timestamp": "2025-06-29T17:35:43.142226"
+        }
+      }
+    },
+    {
+      "ad_id": "ad_9",
+      "original_text": "Live the effortless luxury lifestyle you've always dreamed of - starting today",
+      "clean_text": "Live the effortless luxury lifestyle you've always dreamed of - starting today",
+      "typology_labels": [
+        "Urgency / Scarcity",
+        "Aspirational / Lifestyle"
+      ],
+      "typology_count": 2,
+      "confidence_scores": {
+        "urgency_scarcity": 3.6,
+        "social_proof": 0.0,
+        "emotional_appeal": 0.0,
+        "value_proposition": 0.0,
+        "problem_solution": 0.0,
+        "aspirational_lifestyle": 1.7000000000000002,
+        "instructional_howto": 0.0,
+        "brand_voice": 0.0
+      },
+      "text_features": {
+        "word_count": 12,
+        "char_count": 78,
+        "sentence_count": 1,
+        "all_caps_words": 0,
+        "caps_ratio": 0.01282051282051282,
+        "exclamation_count": 0,
+        "question_count": 0,
+        "emoji_count": 0,
+        "number_count": 0,
+        "percentage_mentions": 0,
+        "price_mentions": 0,
+        "cta_signals": 0
+      },
+      "enhanced": true,
+      "cost_info": {
+        "session_spent": 0.00035,
+        "budget_remaining": 1.99965,
+        "llm_calls_made": 6
+      },
+      "llm_insights": {
+        "emotional_tone": "unknown",
+        "target_audience": "unknown",
+        "emotional_intensity": 0,
+        "brand_personality": "unknown",
+        "persuasion_approach": "unknown",
+        "metadata": {
+          "model": "gpt-4o-mini",
+          "cost": 5.849999999999999e-05,
+          "tokens_used": 207,
+          "call_duration": 1.386,
+          "timestamp": "2025-06-29T17:35:44.529560"
+        }
+      }
+    },
+    {
+      "ad_id": "ad_10",
+      "original_text": "Learn the 3-step system that top sales professionals use to close 80% more deals",
+      "clean_text": "Learn the 3-step system that top sales professionals use to close 80% more deals",
+      "typology_labels": [
+        "Urgency / Scarcity"
+      ],
+      "typology_count": 1,
+      "confidence_scores": {
+        "urgency_scarcity": 4.800000000000001,
+        "social_proof": 0.0,
+        "emotional_appeal": 0.0,
+        "value_proposition": 0.0,
+        "problem_solution": 0.0,
+        "aspirational_lifestyle": 0.0,
+        "instructional_howto": 0.6,
+        "brand_voice": 0.0
+      },
+      "text_features": {
+        "word_count": 14,
+        "char_count": 80,
+        "sentence_count": 1,
+        "all_caps_words": 0,
+        "caps_ratio": 0.0125,
+        "exclamation_count": 0,
+        "question_count": 0,
+        "emoji_count": 0,
+        "number_count": 0,
+        "percentage_mentions": 0,
+        "price_mentions": 0,
+        "cta_signals": 0
+      },
+      "enhanced": true,
+      "cost_info": {
+        "session_spent": 0.000409,
+        "budget_remaining": 1.999591,
+        "llm_calls_made": 7
+      },
+      "llm_insights": {
+        "emotional_tone": "unknown",
+        "target_audience": "unknown",
+        "emotional_intensity": 0,
+        "brand_personality": "unknown",
+        "persuasion_approach": "unknown",
+        "metadata": {
+          "model": "gpt-4o-mini",
+          "cost": 5.9399999999999994e-05,
+          "tokens_used": 213,
+          "call_duration": 1.722,
+          "timestamp": "2025-06-29T17:35:46.252681"
+        }
+      }
+    },
+    {
+      "ad_id": "ad_11",
+      "original_text": "We get it - finding the perfect mattress is about as fun as watching paint dry, but trust us on this one",
+      "clean_text": "We get it - finding the perfect mattress is about as fun as watching paint dry, but trust us on this one",
+      "typology_labels": [
+        "Urgency / Scarcity",
+        "Brand Voice / Meta Language"
+      ],
+      "typology_count": 2,
+      "confidence_scores": {
+        "urgency_scarcity": 5.2,
+        "social_proof": 0.0,
+        "emotional_appeal": 0.0,
+        "value_proposition": 0.0,
+        "problem_solution": 0.0,
+        "aspirational_lifestyle": 0.0,
+        "instructional_howto": 0.0,
+        "brand_voice": 1.0
+      },
+      "text_features": {
+        "word_count": 22,
+        "char_count": 104,
+        "sentence_count": 1,
+        "all_caps_words": 0,
+        "caps_ratio": 0.009615384615384616,
+        "exclamation_count": 0,
+        "question_count": 0,
+        "emoji_count": 0,
+        "number_count": 0,
+        "percentage_mentions": 0,
+        "price_mentions": 0,
+        "cta_signals": 0
+      },
+      "enhanced": true,
+      "cost_info": {
+        "session_spent": 0.00047,
+        "budget_remaining": 1.99953,
+        "llm_calls_made": 8
+      },
+      "llm_insights": {
+        "emotional_tone": "unknown",
+        "target_audience": "unknown",
+        "emotional_intensity": 0,
+        "brand_personality": "unknown",
+        "persuasion_approach": "unknown",
+        "metadata": {
+          "model": "gpt-4o-mini",
+          "cost": 6.0599999999999996e-05,
+          "tokens_used": 218,
+          "call_duration": 1.606,
+          "timestamp": "2025-06-29T17:35:47.860743"
+        }
+      }
+    },
+    {
+      "ad_id": "ad_12",
+      "original_text": "Stop losing money to hidden fees! Our transparent pricing saves businesses $2,400 annually",
+      "clean_text": "Stop losing money to hidden fees! Our transparent pricing saves businesses $2,400 annually",
+      "typology_labels": [
+        "Urgency / Scarcity",
+        "Problem / Solution Framing"
+      ],
+      "typology_count": 2,
+      "confidence_scores": {
+        "urgency_scarcity": 4.0,
+        "social_proof": 0.0,
+        "emotional_appeal": 0.0,
+        "value_proposition": 0.7,
+        "problem_solution": 0.8,
+        "aspirational_lifestyle": 0.0,
+        "instructional_howto": 0.0,
+        "brand_voice": 0.0
+      },
+      "text_features": {
+        "word_count": 13,
+        "char_count": 90,
+        "sentence_count": 1,
+        "all_caps_words": 0,
+        "caps_ratio": 0.022222222222222223,
+        "exclamation_count": 1,
+        "question_count": 0,
+        "emoji_count": 0,
+        "number_count": 0,
+        "percentage_mentions": 0,
+        "price_mentions": 0,
+        "cta_signals": 0
+      },
+      "enhanced": true,
+      "cost_info": {
+        "session_spent": 0.000529,
+        "budget_remaining": 1.999471,
+        "llm_calls_made": 9
+      },
+      "llm_insights": {
+        "emotional_tone": "unknown",
+        "target_audience": "unknown",
+        "emotional_intensity": 0,
+        "brand_personality": "unknown",
+        "persuasion_approach": "unknown",
+        "metadata": {
+          "model": "gpt-4o-mini",
+          "cost": 5.864999999999999e-05,
+          "tokens_used": 211,
+          "call_duration": 1.364,
+          "timestamp": "2025-06-29T17:35:49.225136"
+        }
+      }
+    },
+    {
+      "ad_id": "ad_13",
+      "original_text": "See why Fortune 500 companies choose our award-winning customer service platform",
+      "clean_text": "See why Fortune 500 companies choose our award-winning customer service platform",
+      "typology_labels": [
+        "Urgency / Scarcity"
+      ],
+      "typology_count": 1,
+      "confidence_scores": {
+        "urgency_scarcity": 4.0,
+        "social_proof": 0.0,
+        "emotional_appeal": 0.0,
+        "value_proposition": 0.0,
+        "problem_solution": 0.0,
+        "aspirational_lifestyle": 0.0,
+        "instructional_howto": 0.0,
+        "brand_voice": 0.0
+      },
+      "text_features": {
+        "word_count": 11,
+        "char_count": 80,
+        "sentence_count": 1,
+        "all_caps_words": 0,
+        "caps_ratio": 0.025,
+        "exclamation_count": 0,
+        "question_count": 0,
+        "emoji_count": 0,
+        "number_count": 0,
+        "percentage_mentions": 0,
+        "price_mentions": 0,
+        "cta_signals": 0
+      },
+      "enhanced": true,
+      "cost_info": {
+        "session_spent": 0.000586,
+        "budget_remaining": 1.999414,
+        "llm_calls_made": 10
+      },
+      "llm_insights": {
+        "emotional_tone": "unknown",
+        "target_audience": "unknown",
+        "emotional_intensity": 0,
+        "brand_personality": "unknown",
+        "persuasion_approach": "unknown",
+        "metadata": {
+          "model": "gpt-4o-mini",
+          "cost": 5.744999999999999e-05,
+          "tokens_used": 206,
+          "call_duration": 1.789,
+          "timestamp": "2025-06-29T17:35:51.015449"
+        }
+      }
+    },
+    {
+      "ad_id": "ad_14",
+      "original_text": "Transform your mornings with the 5-minute routine that energizes thousands of busy professionals",
+      "clean_text": "Transform your mornings with the 5-minute routine that energizes thousands of busy professionals",
+      "typology_labels": [
+        "Urgency / Scarcity",
+        "Emotional Appeal",
+        "Aspirational / Lifestyle"
+      ],
+      "typology_count": 3,
+      "confidence_scores": {
+        "urgency_scarcity": 4.800000000000001,
+        "social_proof": 0.0,
+        "emotional_appeal": 0.8,
+        "value_proposition": 0.0,
+        "problem_solution": 0.0,
+        "aspirational_lifestyle": 0.8,
+        "instructional_howto": 0.0,
+        "brand_voice": 0.0
+      },
+      "text_features": {
+        "word_count": 13,
+        "char_count": 96,
+        "sentence_count": 1,
+        "all_caps_words": 0,
+        "caps_ratio": 0.010416666666666666,
+        "exclamation_count": 0,
+        "question_count": 0,
+        "emoji_count": 0,
+        "number_count": 0,
+        "percentage_mentions": 0,
+        "price_mentions": 0,
+        "cta_signals": 0
+      },
+      "enhanced": true,
+      "cost_info": {
+        "session_spent": 0.000646,
+        "budget_remaining": 1.999354,
+        "llm_calls_made": 11
+      },
+      "llm_insights": {
+        "emotional_tone": "unknown",
+        "target_audience": "unknown",
+        "emotional_intensity": 0,
+        "brand_personality": "unknown",
+        "persuasion_approach": "unknown",
+        "metadata": {
+          "model": "gpt-4o-mini",
+          "cost": 6.0299999999999995e-05,
+          "tokens_used": 213,
+          "call_duration": 1.328,
+          "timestamp": "2025-06-29T17:35:52.344216"
+        }
+      }
+    },
+    {
+      "ad_id": "ad_15",
+      "original_text": "Free shipping, free returns, free upgrades - because premium quality shouldn't cost extra",
+      "clean_text": "Free shipping, free returns, free upgrades - because premium quality shouldn't cost extra",
+      "typology_labels": [
+        "Urgency / Scarcity",
+        "Value Proposition / Deal",
+        "Aspirational / Lifestyle"
+      ],
+      "typology_count": 3,
+      "confidence_scores": {
+        "urgency_scarcity": 3.6,
+        "social_proof": 0.0,
+        "emotional_appeal": 0.0,
+        "value_proposition": 2.9999999999999996,
+        "problem_solution": 0.0,
+        "aspirational_lifestyle": 0.9,
+        "instructional_howto": 0.0,
+        "brand_voice": 0.0
+      },
+      "text_features": {
+        "word_count": 13,
+        "char_count": 89,
+        "sentence_count": 1,
+        "all_caps_words": 0,
+        "caps_ratio": 0.011235955056179775,
+        "exclamation_count": 0,
+        "question_count": 0,
+        "emoji_count": 0,
+        "number_count": 0,
+        "percentage_mentions": 0,
+        "price_mentions": 0,
+        "cta_signals": 0
+      },
+      "enhanced": true,
+      "cost_info": {
+        "session_spent": 0.000705,
+        "budget_remaining": 1.999295,
+        "llm_calls_made": 12
+      },
+      "llm_insights": {
+        "emotional_tone": "unknown",
+        "target_audience": "unknown",
+        "emotional_intensity": 0,
+        "brand_personality": "unknown",
+        "persuasion_approach": "unknown",
+        "metadata": {
+          "model": "gpt-4o-mini",
+          "cost": 5.8349999999999995e-05,
+          "tokens_used": 209,
+          "call_duration": 1.751,
+          "timestamp": "2025-06-29T17:35:54.096138"
+        }
+      }
+    },
+    {
+      "ad_id": "ad_16",
+      "original_text": "Struggling with work-life balance? Here's how successful leaders manage it all effortlessly",
+      "clean_text": "Struggling with work-life balance? Here's how successful leaders manage it all effortlessly",
+      "typology_labels": [
+        "Urgency / Scarcity",
+        "Problem / Solution Framing",
+        "Instructional / How-To"
+      ],
+      "typology_count": 3,
+      "confidence_scores": {
+        "urgency_scarcity": 3.6,
+        "social_proof": 0.0,
+        "emotional_appeal": 0.0,
+        "value_proposition": 0.0,
+        "problem_solution": 1.0,
+        "aspirational_lifestyle": 0.0,
+        "instructional_howto": 0.9,
+        "brand_voice": 0.0
+      },
+      "text_features": {
+        "word_count": 12,
+        "char_count": 91,
+        "sentence_count": 1,
+        "all_caps_words": 0,
+        "caps_ratio": 0.02197802197802198,
+        "exclamation_count": 0,
+        "question_count": 1,
+        "emoji_count": 0,
+        "number_count": 0,
+        "percentage_mentions": 0,
+        "price_mentions": 0,
+        "cta_signals": 0
+      },
+      "enhanced": true,
+      "cost_info": {
+        "session_spent": 0.000764,
+        "budget_remaining": 1.999236,
+        "llm_calls_made": 13
+      },
+      "llm_insights": {
+        "emotional_tone": "unknown",
+        "target_audience": "unknown",
+        "emotional_intensity": 0,
+        "brand_personality": "unknown",
+        "persuasion_approach": "unknown",
+        "metadata": {
+          "model": "gpt-4o-mini",
+          "cost": 5.955e-05,
+          "tokens_used": 211,
+          "call_duration": 1.319,
+          "timestamp": "2025-06-29T17:35:55.417000"
+        }
+      }
+    },
+    {
+      "ad_id": "ad_17",
+      "original_text": "Join the movement: 2 million people have already switched to sustainable, guilt-free shopping",
+      "clean_text": "Join the movement: 2 million people have already switched to sustainable, guilt-free shopping",
+      "typology_labels": [
+        "Urgency / Scarcity"
+      ],
+      "typology_count": 1,
+      "confidence_scores": {
+        "urgency_scarcity": 3.6,
+        "social_proof": 0.0,
+        "emotional_appeal": 0.0,
+        "value_proposition": 0.7,
+        "problem_solution": 0.0,
+        "aspirational_lifestyle": 0.0,
+        "instructional_howto": 0.0,
+        "brand_voice": 0.0
+      },
+      "text_features": {
+        "word_count": 13,
+        "char_count": 93,
+        "sentence_count": 1,
+        "all_caps_words": 0,
+        "caps_ratio": 0.010752688172043012,
+        "exclamation_count": 0,
+        "question_count": 0,
+        "emoji_count": 0,
+        "number_count": 0,
+        "percentage_mentions": 0,
+        "price_mentions": 0,
+        "cta_signals": 0
+      },
+      "enhanced": true,
+      "cost_info": {
+        "session_spent": 0.000824,
+        "budget_remaining": 1.999176,
+        "llm_calls_made": 14
+      },
+      "llm_insights": {
+        "emotional_tone": "unknown",
+        "target_audience": "unknown",
+        "emotional_intensity": 0,
+        "brand_personality": "unknown",
+        "persuasion_approach": "unknown",
+        "metadata": {
+          "model": "gpt-4o-mini",
+          "cost": 5.924999999999999e-05,
+          "tokens_used": 212,
+          "call_duration": 1.653,
+          "timestamp": "2025-06-29T17:35:57.070581"
+        }
+      }
+    },
+    {
+      "ad_id": "ad_18",
+      "original_text": "Don't let another day pass wondering \"what if\" - your breakthrough moment starts here",
+      "clean_text": "Don't let another day pass wondering \"what if\" - your breakthrough moment starts here",
+      "typology_labels": [
+        "Urgency / Scarcity",
+        "Brand Voice / Meta Language"
+      ],
+      "typology_count": 2,
+      "confidence_scores": {
+        "urgency_scarcity": 4.4,
+        "social_proof": 0.0,
+        "emotional_appeal": 0.0,
+        "value_proposition": 0.0,
+        "problem_solution": 0.0,
+        "aspirational_lifestyle": 0.0,
+        "instructional_howto": 0.0,
+        "brand_voice": 0.6
+      },
+      "text_features": {
+        "word_count": 14,
+        "char_count": 85,
+        "sentence_count": 1,
+        "all_caps_words": 0,
+        "caps_ratio": 0.011764705882352941,
+        "exclamation_count": 0,
+        "question_count": 0,
+        "emoji_count": 0,
+        "number_count": 0,
+        "percentage_mentions": 0,
+        "price_mentions": 0,
+        "cta_signals": 0
+      },
+      "enhanced": true,
+      "cost_info": {
+        "session_spent": 0.000882,
+        "budget_remaining": 1.999118,
+        "llm_calls_made": 15
+      },
+      "llm_insights": {
+        "emotional_tone": "unknown",
+        "target_audience": "unknown",
+        "emotional_intensity": 0,
+        "brand_personality": "unknown",
+        "persuasion_approach": "unknown",
+        "metadata": {
+          "model": "gpt-4o-mini",
+          "cost": 5.849999999999999e-05,
+          "tokens_used": 210,
+          "call_duration": 1.464,
+          "timestamp": "2025-06-29T17:35:58.535476"
+        }
+      }
+    },
+    {
+      "ad_id": "ad_19",
+      "original_text": "Unlock the insider secrets that industry experts don't want you to know about investing",
+      "clean_text": "Unlock the insider secrets that industry experts don't want you to know about investing",
+      "typology_labels": [
+        "Urgency / Scarcity"
+      ],
+      "typology_count": 1,
+      "confidence_scores": {
+        "urgency_scarcity": 4.800000000000001,
+        "social_proof": 0.0,
+        "emotional_appeal": 0.0,
+        "value_proposition": 0.0,
+        "problem_solution": 0.0,
+        "aspirational_lifestyle": 0.0,
+        "instructional_howto": 0.0,
+        "brand_voice": 0.0
+      },
+      "text_features": {
+        "word_count": 14,
+        "char_count": 87,
+        "sentence_count": 1,
+        "all_caps_words": 0,
+        "caps_ratio": 0.011494252873563218,
+        "exclamation_count": 0,
+        "question_count": 0,
+        "emoji_count": 0,
+        "number_count": 0,
+        "percentage_mentions": 0,
+        "price_mentions": 0,
+        "cta_signals": 0
+      },
+      "enhanced": true,
+      "cost_info": {
+        "session_spent": 0.00094,
+        "budget_remaining": 1.99906,
+        "llm_calls_made": 16
+      },
+      "llm_insights": {
+        "emotional_tone": "unknown",
+        "target_audience": "unknown",
+        "emotional_intensity": 0,
+        "brand_personality": "unknown",
+        "persuasion_approach": "unknown",
+        "metadata": {
+          "model": "gpt-4o-mini",
+          "cost": 5.759999999999999e-05,
+          "tokens_used": 207,
+          "call_duration": 1.906,
+          "timestamp": "2025-06-29T17:36:00.443114"
+        }
+      }
+    },
+    {
+      "ad_id": "ad_20",
+      "original_text": "Perfect for busy parents: meal planning that actually fits your chaotic schedule",
+      "clean_text": "Perfect for busy parents: meal planning that actually fits your chaotic schedule",
+      "typology_labels": [
+        "Urgency / Scarcity",
+        "Aspirational / Lifestyle"
+      ],
+      "typology_count": 2,
+      "confidence_scores": {
+        "urgency_scarcity": 4.4,
+        "social_proof": 0.0,
+        "emotional_appeal": 0.0,
+        "value_proposition": 0.0,
+        "problem_solution": 0.0,
+        "aspirational_lifestyle": 0.8,
+        "instructional_howto": 0.0,
+        "brand_voice": 0.5
+      },
+      "text_features": {
+        "word_count": 12,
+        "char_count": 80,
+        "sentence_count": 1,
+        "all_caps_words": 0,
+        "caps_ratio": 0.0125,
+        "exclamation_count": 0,
+        "question_count": 0,
+        "emoji_count": 0,
+        "number_count": 0,
+        "percentage_mentions": 0,
+        "price_mentions": 0,
+        "cta_signals": 0
+      },
+      "enhanced": true,
+      "cost_info": {
+        "session_spent": 0.000997,
+        "budget_remaining": 1.999003,
+        "llm_calls_made": 17
+      },
+      "llm_insights": {
+        "emotional_tone": "unknown",
+        "target_audience": "unknown",
+        "emotional_intensity": 0,
+        "brand_personality": "unknown",
+        "persuasion_approach": "unknown",
+        "metadata": {
+          "model": "gpt-4o-mini",
+          "cost": 5.744999999999999e-05,
+          "tokens_used": 206,
+          "call_duration": 1.642,
+          "timestamp": "2025-06-29T17:36:02.086591"
+        }
+      }
+    },
+    {
+      "ad_id": "ad_21",
+      "original_text": "Limited edition collection drops tonight at midnight - set your alarms, this won't last!",
+      "clean_text": "Limited edition collection drops tonight at midnight - set your alarms, this won't last!",
+      "typology_labels": [
+        "Urgency / Scarcity"
+      ],
+      "typology_count": 1,
+      "confidence_scores": {
+        "urgency_scarcity": 4.2,
+        "social_proof": 0.0,
+        "emotional_appeal": 0.0,
+        "value_proposition": 0.0,
+        "problem_solution": 0.0,
+        "aspirational_lifestyle": 0.0,
+        "instructional_howto": 0.0,
+        "brand_voice": 0.0
+      },
+      "text_features": {
+        "word_count": 14,
+        "char_count": 88,
+        "sentence_count": 1,
+        "all_caps_words": 0,
+        "caps_ratio": 0.011363636363636364,
+        "exclamation_count": 1,
+        "question_count": 0,
+        "emoji_count": 0,
+        "number_count": 0,
+        "percentage_mentions": 0,
+        "price_mentions": 0,
+        "cta_signals": 0
+      },
+      "enhanced": true,
+      "cost_info": {
+        "session_spent": 0.001056,
+        "budget_remaining": 1.998944,
+        "llm_calls_made": 18
+      },
+      "llm_insights": {
+        "emotional_tone": "unknown",
+        "target_audience": "unknown",
+        "emotional_intensity": 0,
+        "brand_personality": "unknown",
+        "persuasion_approach": "unknown",
+        "metadata": {
+          "model": "gpt-4o-mini",
+          "cost": 5.8949999999999996e-05,
+          "tokens_used": 210,
+          "call_duration": 1.685,
+          "timestamp": "2025-06-29T17:36:03.772141"
+        }
+      }
+    },
+    {
+      "ad_id": "ad_22",
+      "original_text": "Ready to 10x your productivity? Discover the tools that changed how we work forever",
+      "clean_text": "Ready to 10x your productivity? Discover the tools that changed how we work forever",
+      "typology_labels": [
+        "Urgency / Scarcity"
+      ],
+      "typology_count": 1,
+      "confidence_scores": {
+        "urgency_scarcity": 4.0,
+        "social_proof": 0.0,
+        "emotional_appeal": 0.0,
+        "value_proposition": 0.0,
+        "problem_solution": 0.0,
+        "aspirational_lifestyle": 0.0,
+        "instructional_howto": 0.6,
+        "brand_voice": 0.0
+      },
+      "text_features": {
+        "word_count": 14,
+        "char_count": 83,
+        "sentence_count": 1,
+        "all_caps_words": 0,
+        "caps_ratio": 0.024096385542168676,
+        "exclamation_count": 0,
+        "question_count": 1,
+        "emoji_count": 0,
+        "number_count": 0,
+        "percentage_mentions": 0,
+        "price_mentions": 0,
+        "cta_signals": 0
+      },
+      "enhanced": true,
+      "cost_info": {
+        "session_spent": 0.001115,
+        "budget_remaining": 1.998885,
+        "llm_calls_made": 19
+      },
+      "llm_insights": {
+        "emotional_tone": "unknown",
+        "target_audience": "unknown",
+        "emotional_intensity": 0,
+        "brand_personality": "unknown",
+        "persuasion_approach": "unknown",
+        "metadata": {
+          "model": "gpt-4o-mini",
+          "cost": 5.924999999999999e-05,
+          "tokens_used": 212,
+          "call_duration": 1.378,
+          "timestamp": "2025-06-29T17:36:05.151824"
+        }
+      }
+    },
+    {
+      "ad_id": "ad_23",
+      "original_text": "Think all protein powders taste like chalk? We thought so too, until we created this",
+      "clean_text": "Think all protein powders taste like chalk? We thought so too, until we created this",
+      "typology_labels": [
+        "Urgency / Scarcity"
+      ],
+      "typology_count": 1,
+      "confidence_scores": {
+        "urgency_scarcity": 4.0,
+        "social_proof": 0.0,
+        "emotional_appeal": 0.0,
+        "value_proposition": 0.0,
+        "problem_solution": 0.0,
+        "aspirational_lifestyle": 0.0,
+        "instructional_howto": 0.0,
+        "brand_voice": 0.0
+      },
+      "text_features": {
+        "word_count": 15,
+        "char_count": 84,
+        "sentence_count": 1,
+        "all_caps_words": 0,
+        "caps_ratio": 0.023809523809523808,
+        "exclamation_count": 0,
+        "question_count": 1,
+        "emoji_count": 0,
+        "number_count": 0,
+        "percentage_mentions": 0,
+        "price_mentions": 0,
+        "cta_signals": 0
+      },
+      "enhanced": true,
+      "cost_info": {
+        "session_spent": 0.001175,
+        "budget_remaining": 1.998825,
+        "llm_calls_made": 20
+      },
+      "llm_insights": {
+        "emotional_tone": "unknown",
+        "target_audience": "unknown",
+        "emotional_intensity": 0,
+        "brand_personality": "unknown",
+        "persuasion_approach": "unknown",
+        "metadata": {
+          "model": "gpt-4o-mini",
+          "cost": 5.984999999999999e-05,
+          "tokens_used": 213,
+          "call_duration": 1.435,
+          "timestamp": "2025-06-29T17:36:06.587517"
+        }
+      }
+    }
+  ]
+}

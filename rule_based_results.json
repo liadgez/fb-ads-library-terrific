@@ -1,0 +1,2054 @@
+[
+  {
+    "ad_id": "ad_0",
+    "original_text": "Last 24 hours! Save 70% on premium software before this deal disappears forever!",
+    "clean_text": "Last 24 hours! Save 70% on premium software before this deal disappears forever!",
+    "typology_labels": [
+      "Urgency / Scarcity",
+      "Aspirational / Lifestyle"
+    ],
+    "typology_count": 2,
+    "confidence_scores": {
+      "urgency_scarcity": 3.2,
+      "social_proof": 0.0,
+      "emotional_appeal": 0.0,
+      "value_proposition": 0.0,
+      "problem_solution": 0.0,
+      "aspirational_lifestyle": 0.9,
+      "instructional_howto": 0.0,
+      "brand_voice": 0.0
+    },
+    "classified_at": "2025-06-29T08:36:26.375512",
+    "typologies": {
+      "urgency_scarcity": {
+        "name": "Urgency / Scarcity",
+        "score": 3.2,
+        "threshold": 0.8,
+        "patterns_matched": [
+          "Last",
+          "Save",
+          "premium",
+          "software",
+          "before",
+          "this",
+          "deal",
+          "disappears"
+        ],
+        "description": "Drive immediate action through FOMO or limited availability"
+      },
+      "aspirational_lifestyle": {
+        "name": "Aspirational / Lifestyle",
+        "score": 0.9,
+        "threshold": 0.7,
+        "patterns_matched": [
+          "premium"
+        ],
+        "description": "Align with user identity, aesthetics, or future self-image"
+      }
+    },
+    "matched_patterns": {
+      "urgency_scarcity": [
+        "Last",
+        "Save",
+        "premium",
+        "software",
+        "before",
+        "this",
+        "deal",
+        "disappears"
+      ],
+      "social_proof": [],
+      "emotional_appeal": [],
+      "value_proposition": [],
+      "problem_solution": [],
+      "aspirational_lifestyle": [
+        "premium"
+      ],
+      "instructional_howto": [],
+      "brand_voice": []
+    },
+    "text_features": {
+      "word_count": 13,
+      "char_count": 80,
+      "sentence_count": 1,
+      "all_caps_words": 0,
+      "caps_ratio": 0.025,
+      "exclamation_count": 2,
+      "question_count": 0,
+      "emoji_count": 0,
+      "number_count": 0,
+      "percentage_mentions": 0,
+      "price_mentions": 0,
+      "cta_signals": 0
+    },
+    "buzzwords": [],
+    "cta_phrases": [],
+    "sentiment_indicators": {
+      "positive_count": 0,
+      "negative_count": 0,
+      "urgency_count": 0
+    },
+    "normalized_scores": {
+      "urgency_scarcity": 1.0,
+      "social_proof": 0.0,
+      "emotional_appeal": 0.0,
+      "value_proposition": 0.0,
+      "problem_solution": 0.0,
+      "aspirational_lifestyle": 0.28125,
+      "instructional_howto": 0.0,
+      "brand_voice": 0.0
+    }
+  },
+  {
+    "ad_id": "ad_1",
+    "original_text": "Join over 50,000 successful entrepreneurs who've transformed their business with our platform",
+    "clean_text": "Join over 50,000 successful entrepreneurs who've transformed their business with our platform",
+    "typology_labels": [
+      "Urgency / Scarcity"
+    ],
+    "typology_count": 1,
+    "confidence_scores": {
+      "urgency_scarcity": 4.0,
+      "social_proof": 0.0,
+      "emotional_appeal": 0.0,
+      "value_proposition": 0.0,
+      "problem_solution": 0.0,
+      "aspirational_lifestyle": 0.0,
+      "instructional_howto": 0.0,
+      "brand_voice": 0.0
+    },
+    "classified_at": "2025-06-29T08:36:26.376286",
+    "typologies": {
+      "urgency_scarcity": {
+        "name": "Urgency / Scarcity",
+        "score": 4.0,
+        "threshold": 0.8,
+        "patterns_matched": [
+          "Join",
+          "over",
+          "successful",
+          "entrepreneurs",
+          "transformed",
+          "their",
+          "business",
+          "with",
+          "our",
+          "platform"
+        ],
+        "description": "Drive immediate action through FOMO or limited availability"
+      }
+    },
+    "matched_patterns": {
+      "urgency_scarcity": [
+        "Join",
+        "over",
+        "successful",
+        "entrepreneurs",
+        "transformed",
+        "their",
+        "business",
+        "with",
+        "our",
+        "platform"
+      ],
+      "social_proof": [],
+      "emotional_appeal": [],
+      "value_proposition": [],
+      "problem_solution": [],
+      "aspirational_lifestyle": [],
+      "instructional_howto": [],
+      "brand_voice": []
+    },
+    "text_features": {
+      "word_count": 12,
+      "char_count": 93,
+      "sentence_count": 1,
+      "all_caps_words": 0,
+      "caps_ratio": 0.010752688172043012,
+      "exclamation_count": 0,
+      "question_count": 0,
+      "emoji_count": 0,
+      "number_count": 0,
+      "percentage_mentions": 0,
+      "price_mentions": 0,
+      "cta_signals": 0
+    },
+    "buzzwords": [],
+    "cta_phrases": [],
+    "sentiment_indicators": {
+      "positive_count": 0,
+      "negative_count": 0,
+      "urgency_count": 0
+    },
+    "normalized_scores": {
+      "urgency_scarcity": 1.0,
+      "social_proof": 0.0,
+      "emotional_appeal": 0.0,
+      "value_proposition": 0.0,
+      "problem_solution": 0.0,
+      "aspirational_lifestyle": 0.0,
+      "instructional_howto": 0.0,
+      "brand_voice": 0.0
+    }
+  },
+  {
+    "ad_id": "ad_2",
+    "original_text": "Feel confident and radiant - discover the skincare routine that changed everything",
+    "clean_text": "Feel confident and radiant - discover the skincare routine that changed everything",
+    "typology_labels": [
+      "Urgency / Scarcity",
+      "Emotional Appeal"
+    ],
+    "typology_count": 2,
+    "confidence_scores": {
+      "urgency_scarcity": 4.4,
+      "social_proof": 0.0,
+      "emotional_appeal": 1.0,
+      "value_proposition": 0.0,
+      "problem_solution": 0.0,
+      "aspirational_lifestyle": 0.0,
+      "instructional_howto": 0.6,
+      "brand_voice": 0.0
+    },
+    "classified_at": "2025-06-29T08:36:26.376403",
+    "typologies": {
+      "urgency_scarcity": {
+        "name": "Urgency / Scarcity",
+        "score": 4.4,
+        "threshold": 0.8,
+        "patterns_matched": [
+          "Feel",
+          "confident",
+          "and",
+          "radiant",
+          "discover",
+          "the",
+          "skincare",
+          "routine",
+          "that",
+          "changed",
+          "everything"
+        ],
+        "description": "Drive immediate action through FOMO or limited availability"
+      },
+      "emotional_appeal": {
+        "name": "Emotional Appeal",
+        "score": 1.0,
+        "threshold": 0.7,
+        "patterns_matched": [
+          "Feel confident"
+        ],
+        "description": "Evoke feelings to drive engagement or identification"
+      }
+    },
+    "matched_patterns": {
+      "urgency_scarcity": [
+        "Feel",
+        "confident",
+        "and",
+        "radiant",
+        "discover",
+        "the",
+        "skincare",
+        "routine",
+        "that",
+        "changed",
+        "everything"
+      ],
+      "social_proof": [],
+      "emotional_appeal": [
+        "Feel confident"
+      ],
+      "value_proposition": [],
+      "problem_solution": [],
+      "aspirational_lifestyle": [],
+      "instructional_howto": [
+        "discover"
+      ],
+      "brand_voice": []
+    },
+    "text_features": {
+      "word_count": 12,
+      "char_count": 82,
+      "sentence_count": 1,
+      "all_caps_words": 0,
+      "caps_ratio": 0.012195121951219513,
+      "exclamation_count": 0,
+      "question_count": 0,
+      "emoji_count": 0,
+      "number_count": 0,
+      "percentage_mentions": 0,
+      "price_mentions": 0,
+      "cta_signals": 0
+    },
+    "buzzwords": [],
+    "cta_phrases": [],
+    "sentiment_indicators": {
+      "positive_count": 0,
+      "negative_count": 0,
+      "urgency_count": 0
+    },
+    "normalized_scores": {
+      "urgency_scarcity": 1.0,
+      "social_proof": 0.0,
+      "emotional_appeal": 0.22727272727272727,
+      "value_proposition": 0.0,
+      "problem_solution": 0.0,
+      "aspirational_lifestyle": 0.0,
+      "instructional_howto": 0.13636363636363635,
+      "brand_voice": 0.0
+    }
+  },
+  {
+    "ad_id": "ad_3",
+    "original_text": "Get enterprise-grade security at startup prices - 90% off your first year",
+    "clean_text": "Get enterprise-grade security at startup prices - 90% off your first year",
+    "typology_labels": [
+      "Urgency / Scarcity",
+      "Value Proposition / Deal"
+    ],
+    "typology_count": 2,
+    "confidence_scores": {
+      "urgency_scarcity": 3.6,
+      "social_proof": 0.0,
+      "emotional_appeal": 0.0,
+      "value_proposition": 1.7,
+      "problem_solution": 0.0,
+      "aspirational_lifestyle": 0.0,
+      "instructional_howto": 0.0,
+      "brand_voice": 0.0
+    },
+    "classified_at": "2025-06-29T08:36:26.376512",
+    "typologies": {
+      "urgency_scarcity": {
+        "name": "Urgency / Scarcity",
+        "score": 3.6,
+        "threshold": 0.8,
+        "patterns_matched": [
+          "Get",
+          "grade",
+          "security",
+          "startup",
+          "prices",
+          "off",
+          "your",
+          "first",
+          "year"
+        ],
+        "description": "Drive immediate action through FOMO or limited availability"
+      },
+      "value_proposition": {
+        "name": "Value Proposition / Deal",
+        "score": 1.7,
+        "threshold": 0.8,
+        "patterns_matched": [
+          "90% off",
+          "90% off"
+        ],
+        "description": "Emphasize savings, ROI, or product advantage"
+      }
+    },
+    "matched_patterns": {
+      "urgency_scarcity": [
+        "Get",
+        "grade",
+        "security",
+        "startup",
+        "prices",
+        "off",
+        "your",
+        "first",
+        "year"
+      ],
+      "social_proof": [],
+      "emotional_appeal": [],
+      "value_proposition": [
+        "90% off",
+        "90% off"
+      ],
+      "problem_solution": [],
+      "aspirational_lifestyle": [],
+      "instructional_howto": [],
+      "brand_voice": []
+    },
+    "text_features": {
+      "word_count": 12,
+      "char_count": 73,
+      "sentence_count": 1,
+      "all_caps_words": 0,
+      "caps_ratio": 0.0136986301369863,
+      "exclamation_count": 0,
+      "question_count": 0,
+      "emoji_count": 0,
+      "number_count": 0,
+      "percentage_mentions": 0,
+      "price_mentions": 0,
+      "cta_signals": 0
+    },
+    "buzzwords": [],
+    "cta_phrases": [],
+    "sentiment_indicators": {
+      "positive_count": 0,
+      "negative_count": 0,
+      "urgency_count": 0
+    },
+    "normalized_scores": {
+      "urgency_scarcity": 1.0,
+      "social_proof": 0.0,
+      "emotional_appeal": 0.0,
+      "value_proposition": 0.4722222222222222,
+      "problem_solution": 0.0,
+      "aspirational_lifestyle": 0.0,
+      "instructional_howto": 0.0,
+      "brand_voice": 0.0
+    }
+  },
+  {
+    "ad_id": "ad_4",
+    "original_text": "Tired of complex project management tools? Finally, a simple solution that just works!",
+    "clean_text": "Tired of complex project management tools? Finally, a simple solution that just works!",
+    "typology_labels": [
+      "Urgency / Scarcity",
+      "Problem / Solution Framing"
+    ],
+    "typology_count": 2,
+    "confidence_scores": {
+      "urgency_scarcity": 3.2,
+      "social_proof": 0.0,
+      "emotional_appeal": 0.0,
+      "value_proposition": 0.0,
+      "problem_solution": 2.6,
+      "aspirational_lifestyle": 0.0,
+      "instructional_howto": 0.0,
+      "brand_voice": 0.0
+    },
+    "classified_at": "2025-06-29T08:36:26.376626",
+    "typologies": {
+      "urgency_scarcity": {
+        "name": "Urgency / Scarcity",
+        "score": 3.2,
+        "threshold": 0.8,
+        "patterns_matched": [
+          "Tired",
+          "complex",
+          "project",
+          "management",
+          "simple",
+          "solution",
+          "that",
+          "just"
+        ],
+        "description": "Drive immediate action through FOMO or limited availability"
+      },
+      "problem_solution": {
+        "name": "Problem / Solution Framing",
+        "score": 2.6,
+        "threshold": 0.8,
+        "patterns_matched": [
+          "Tired of",
+          "Finally",
+          "solution"
+        ],
+        "description": "Highlight pain point and position product as answer"
+      }
+    },
+    "matched_patterns": {
+      "urgency_scarcity": [
+        "Tired",
+        "complex",
+        "project",
+        "management",
+        "simple",
+        "solution",
+        "that",
+        "just"
+      ],
+      "social_proof": [],
+      "emotional_appeal": [],
+      "value_proposition": [],
+      "problem_solution": [
+        "Tired of",
+        "Finally",
+        "solution"
+      ],
+      "aspirational_lifestyle": [],
+      "instructional_howto": [],
+      "brand_voice": []
+    },
+    "text_features": {
+      "word_count": 13,
+      "char_count": 86,
+      "sentence_count": 1,
+      "all_caps_words": 0,
+      "caps_ratio": 0.023255813953488372,
+      "exclamation_count": 1,
+      "question_count": 1,
+      "emoji_count": 0,
+      "number_count": 0,
+      "percentage_mentions": 0,
+      "price_mentions": 0,
+      "cta_signals": 0
+    },
+    "buzzwords": [],
+    "cta_phrases": [],
+    "sentiment_indicators": {
+      "positive_count": 0,
+      "negative_count": 0,
+      "urgency_count": 0
+    },
+    "normalized_scores": {
+      "urgency_scarcity": 1.0,
+      "social_proof": 0.0,
+      "emotional_appeal": 0.0,
+      "value_proposition": 0.0,
+      "problem_solution": 0.8125,
+      "aspirational_lifestyle": 0.0,
+      "instructional_howto": 0.0,
+      "brand_voice": 0.0
+    }
+  },
+  {
+    "ad_id": "ad_5",
+    "original_text": "Live the effortless luxury lifestyle you've always dreamed of - starting today",
+    "clean_text": "Live the effortless luxury lifestyle you've always dreamed of - starting today",
+    "typology_labels": [
+      "Urgency / Scarcity",
+      "Aspirational / Lifestyle"
+    ],
+    "typology_count": 2,
+    "confidence_scores": {
+      "urgency_scarcity": 3.6,
+      "social_proof": 0.0,
+      "emotional_appeal": 0.0,
+      "value_proposition": 0.0,
+      "problem_solution": 0.0,
+      "aspirational_lifestyle": 1.7000000000000002,
+      "instructional_howto": 0.0,
+      "brand_voice": 0.0
+    },
+    "classified_at": "2025-06-29T08:36:26.376734",
+    "typologies": {
+      "urgency_scarcity": {
+        "name": "Urgency / Scarcity",
+        "score": 3.6,
+        "threshold": 0.8,
+        "patterns_matched": [
+          "Live",
+          "the",
+          "effortless",
+          "luxury",
+          "lifestyle",
+          "always",
+          "dreamed",
+          "starting",
+          "today"
+        ],
+        "description": "Drive immediate action through FOMO or limited availability"
+      },
+      "aspirational_lifestyle": {
+        "name": "Aspirational / Lifestyle",
+        "score": 1.7000000000000002,
+        "threshold": 0.7,
+        "patterns_matched": [
+          "effortless",
+          "lifestyle"
+        ],
+        "description": "Align with user identity, aesthetics, or future self-image"
+      }
+    },
+    "matched_patterns": {
+      "urgency_scarcity": [
+        "Live",
+        "the",
+        "effortless",
+        "luxury",
+        "lifestyle",
+        "always",
+        "dreamed",
+        "starting",
+        "today"
+      ],
+      "social_proof": [],
+      "emotional_appeal": [],
+      "value_proposition": [],
+      "problem_solution": [],
+      "aspirational_lifestyle": [
+        "effortless",
+        "lifestyle"
+      ],
+      "instructional_howto": [],
+      "brand_voice": []
+    },
+    "text_features": {
+      "word_count": 12,
+      "char_count": 78,
+      "sentence_count": 1,
+      "all_caps_words": 0,
+      "caps_ratio": 0.01282051282051282,
+      "exclamation_count": 0,
+      "question_count": 0,
+      "emoji_count": 0,
+      "number_count": 0,
+      "percentage_mentions": 0,
+      "price_mentions": 0,
+      "cta_signals": 0
+    },
+    "buzzwords": [],
+    "cta_phrases": [],
+    "sentiment_indicators": {
+      "positive_count": 0,
+      "negative_count": 0,
+      "urgency_count": 1
+    },
+    "normalized_scores": {
+      "urgency_scarcity": 1.0,
+      "social_proof": 0.0,
+      "emotional_appeal": 0.0,
+      "value_proposition": 0.0,
+      "problem_solution": 0.0,
+      "aspirational_lifestyle": 0.47222222222222227,
+      "instructional_howto": 0.0,
+      "brand_voice": 0.0
+    }
+  },
+  {
+    "ad_id": "ad_6",
+    "original_text": "Learn the 3-step system that top sales professionals use to close 80% more deals",
+    "clean_text": "Learn the 3-step system that top sales professionals use to close 80% more deals",
+    "typology_labels": [
+      "Urgency / Scarcity"
+    ],
+    "typology_count": 1,
+    "confidence_scores": {
+      "urgency_scarcity": 4.800000000000001,
+      "social_proof": 0.0,
+      "emotional_appeal": 0.0,
+      "value_proposition": 0.0,
+      "problem_solution": 0.0,
+      "aspirational_lifestyle": 0.0,
+      "instructional_howto": 0.6,
+      "brand_voice": 0.0
+    },
+    "classified_at": "2025-06-29T08:36:26.376849",
+    "typologies": {
+      "urgency_scarcity": {
+        "name": "Urgency / Scarcity",
+        "score": 4.800000000000001,
+        "threshold": 0.8,
+        "patterns_matched": [
+          "Learn",
+          "the",
+          "step",
+          "system",
+          "that",
+          "top",
+          "sales",
+          "professionals",
+          "use",
+          "close",
+          "more",
+          "deals"
+        ],
+        "description": "Drive immediate action through FOMO or limited availability"
+      }
+    },
+    "matched_patterns": {
+      "urgency_scarcity": [
+        "Learn",
+        "the",
+        "step",
+        "system",
+        "that",
+        "top",
+        "sales",
+        "professionals",
+        "use",
+        "close",
+        "more",
+        "deals"
+      ],
+      "social_proof": [],
+      "emotional_appeal": [],
+      "value_proposition": [],
+      "problem_solution": [],
+      "aspirational_lifestyle": [],
+      "instructional_howto": [
+        "Learn"
+      ],
+      "brand_voice": []
+    },
+    "text_features": {
+      "word_count": 14,
+      "char_count": 80,
+      "sentence_count": 1,
+      "all_caps_words": 0,
+      "caps_ratio": 0.0125,
+      "exclamation_count": 0,
+      "question_count": 0,
+      "emoji_count": 0,
+      "number_count": 0,
+      "percentage_mentions": 0,
+      "price_mentions": 0,
+      "cta_signals": 0
+    },
+    "buzzwords": [],
+    "cta_phrases": [],
+    "sentiment_indicators": {
+      "positive_count": 0,
+      "negative_count": 0,
+      "urgency_count": 0
+    },
+    "normalized_scores": {
+      "urgency_scarcity": 1.0,
+      "social_proof": 0.0,
+      "emotional_appeal": 0.0,
+      "value_proposition": 0.0,
+      "problem_solution": 0.0,
+      "aspirational_lifestyle": 0.0,
+      "instructional_howto": 0.12499999999999997,
+      "brand_voice": 0.0
+    }
+  },
+  {
+    "ad_id": "ad_7",
+    "original_text": "We get it - finding the perfect mattress is about as fun as watching paint dry, but trust us on this one",
+    "clean_text": "We get it - finding the perfect mattress is about as fun as watching paint dry, but trust us on this one",
+    "typology_labels": [
+      "Urgency / Scarcity",
+      "Brand Voice / Meta Language"
+    ],
+    "typology_count": 2,
+    "confidence_scores": {
+      "urgency_scarcity": 5.2,
+      "social_proof": 0.0,
+      "emotional_appeal": 0.0,
+      "value_proposition": 0.0,
+      "problem_solution": 0.0,
+      "aspirational_lifestyle": 0.0,
+      "instructional_howto": 0.0,
+      "brand_voice": 1.0
+    },
+    "classified_at": "2025-06-29T08:36:26.376981",
+    "typologies": {
+      "urgency_scarcity": {
+        "name": "Urgency / Scarcity",
+        "score": 5.2,
+        "threshold": 0.8,
+        "patterns_matched": [
+          "get",
+          "finding",
+          "the",
+          "perfect",
+          "mattress",
+          "about",
+          "fun",
+          "watching",
+          "paint",
+          "but",
+          "trust",
+          "this",
+          "one"
+        ],
+        "description": "Drive immediate action through FOMO or limited availability"
+      },
+      "brand_voice": {
+        "name": "Brand Voice / Meta Language",
+        "score": 1.0,
+        "threshold": 0.6,
+        "patterns_matched": [
+          "We get it"
+        ],
+        "description": "Use humor, irony, or self-referential tone"
+      }
+    },
+    "matched_patterns": {
+      "urgency_scarcity": [
+        "get",
+        "finding",
+        "the",
+        "perfect",
+        "mattress",
+        "about",
+        "fun",
+        "watching",
+        "paint",
+        "but",
+        "trust",
+        "this",
+        "one"
+      ],
+      "social_proof": [],
+      "emotional_appeal": [],
+      "value_proposition": [],
+      "problem_solution": [],
+      "aspirational_lifestyle": [],
+      "instructional_howto": [],
+      "brand_voice": [
+        "We get it"
+      ]
+    },
+    "text_features": {
+      "word_count": 22,
+      "char_count": 104,
+      "sentence_count": 1,
+      "all_caps_words": 0,
+      "caps_ratio": 0.009615384615384616,
+      "exclamation_count": 0,
+      "question_count": 0,
+      "emoji_count": 0,
+      "number_count": 0,
+      "percentage_mentions": 0,
+      "price_mentions": 0,
+      "cta_signals": 0
+    },
+    "buzzwords": [],
+    "cta_phrases": [],
+    "sentiment_indicators": {
+      "positive_count": 1,
+      "negative_count": 0,
+      "urgency_count": 0
+    },
+    "normalized_scores": {
+      "urgency_scarcity": 1.0,
+      "social_proof": 0.0,
+      "emotional_appeal": 0.0,
+      "value_proposition": 0.0,
+      "problem_solution": 0.0,
+      "aspirational_lifestyle": 0.0,
+      "instructional_howto": 0.0,
+      "brand_voice": 0.1923076923076923
+    }
+  },
+  {
+    "ad_id": "ad_8",
+    "original_text": "Stop losing money to hidden fees! Our transparent pricing saves businesses $2,400 annually",
+    "clean_text": "Stop losing money to hidden fees! Our transparent pricing saves businesses $2,400 annually",
+    "typology_labels": [
+      "Urgency / Scarcity",
+      "Problem / Solution Framing"
+    ],
+    "typology_count": 2,
+    "confidence_scores": {
+      "urgency_scarcity": 4.0,
+      "social_proof": 0.0,
+      "emotional_appeal": 0.0,
+      "value_proposition": 0.7,
+      "problem_solution": 0.8,
+      "aspirational_lifestyle": 0.0,
+      "instructional_howto": 0.0,
+      "brand_voice": 0.0
+    },
+    "classified_at": "2025-06-29T08:36:26.377104",
+    "typologies": {
+      "urgency_scarcity": {
+        "name": "Urgency / Scarcity",
+        "score": 4.0,
+        "threshold": 0.8,
+        "patterns_matched": [
+          "Stop",
+          "losing",
+          "money",
+          "hidden",
+          "Our",
+          "transparent",
+          "pricing",
+          "saves",
+          "businesses",
+          "annually"
+        ],
+        "description": "Drive immediate action through FOMO or limited availability"
+      },
+      "problem_solution": {
+        "name": "Problem / Solution Framing",
+        "score": 0.8,
+        "threshold": 0.8,
+        "patterns_matched": [
+          "Stop"
+        ],
+        "description": "Highlight pain point and position product as answer"
+      }
+    },
+    "matched_patterns": {
+      "urgency_scarcity": [
+        "Stop",
+        "losing",
+        "money",
+        "hidden",
+        "Our",
+        "transparent",
+        "pricing",
+        "saves",
+        "businesses",
+        "annually"
+      ],
+      "social_proof": [],
+      "emotional_appeal": [],
+      "value_proposition": [
+        "$2"
+      ],
+      "problem_solution": [
+        "Stop"
+      ],
+      "aspirational_lifestyle": [],
+      "instructional_howto": [],
+      "brand_voice": []
+    },
+    "text_features": {
+      "word_count": 13,
+      "char_count": 90,
+      "sentence_count": 1,
+      "all_caps_words": 0,
+      "caps_ratio": 0.022222222222222223,
+      "exclamation_count": 1,
+      "question_count": 0,
+      "emoji_count": 0,
+      "number_count": 0,
+      "percentage_mentions": 0,
+      "price_mentions": 0,
+      "cta_signals": 0
+    },
+    "buzzwords": [],
+    "cta_phrases": [],
+    "sentiment_indicators": {
+      "positive_count": 0,
+      "negative_count": 0,
+      "urgency_count": 0
+    },
+    "normalized_scores": {
+      "urgency_scarcity": 1.0,
+      "social_proof": 0.0,
+      "emotional_appeal": 0.0,
+      "value_proposition": 0.175,
+      "problem_solution": 0.2,
+      "aspirational_lifestyle": 0.0,
+      "instructional_howto": 0.0,
+      "brand_voice": 0.0
+    }
+  },
+  {
+    "ad_id": "ad_9",
+    "original_text": "See why Fortune 500 companies choose our award-winning customer service platform",
+    "clean_text": "See why Fortune 500 companies choose our award-winning customer service platform",
+    "typology_labels": [
+      "Urgency / Scarcity"
+    ],
+    "typology_count": 1,
+    "confidence_scores": {
+      "urgency_scarcity": 4.0,
+      "social_proof": 0.0,
+      "emotional_appeal": 0.0,
+      "value_proposition": 0.0,
+      "problem_solution": 0.0,
+      "aspirational_lifestyle": 0.0,
+      "instructional_howto": 0.0,
+      "brand_voice": 0.0
+    },
+    "classified_at": "2025-06-29T08:36:26.377212",
+    "typologies": {
+      "urgency_scarcity": {
+        "name": "Urgency / Scarcity",
+        "score": 4.0,
+        "threshold": 0.8,
+        "patterns_matched": [
+          "See",
+          "why",
+          "Fortune",
+          "companies",
+          "choose",
+          "our",
+          "winning",
+          "customer",
+          "service",
+          "platform"
+        ],
+        "description": "Drive immediate action through FOMO or limited availability"
+      }
+    },
+    "matched_patterns": {
+      "urgency_scarcity": [
+        "See",
+        "why",
+        "Fortune",
+        "companies",
+        "choose",
+        "our",
+        "winning",
+        "customer",
+        "service",
+        "platform"
+      ],
+      "social_proof": [],
+      "emotional_appeal": [],
+      "value_proposition": [],
+      "problem_solution": [],
+      "aspirational_lifestyle": [],
+      "instructional_howto": [],
+      "brand_voice": []
+    },
+    "text_features": {
+      "word_count": 11,
+      "char_count": 80,
+      "sentence_count": 1,
+      "all_caps_words": 0,
+      "caps_ratio": 0.025,
+      "exclamation_count": 0,
+      "question_count": 0,
+      "emoji_count": 0,
+      "number_count": 0,
+      "percentage_mentions": 0,
+      "price_mentions": 0,
+      "cta_signals": 0
+    },
+    "buzzwords": [],
+    "cta_phrases": [],
+    "sentiment_indicators": {
+      "positive_count": 0,
+      "negative_count": 0,
+      "urgency_count": 0
+    },
+    "normalized_scores": {
+      "urgency_scarcity": 1.0,
+      "social_proof": 0.0,
+      "emotional_appeal": 0.0,
+      "value_proposition": 0.0,
+      "problem_solution": 0.0,
+      "aspirational_lifestyle": 0.0,
+      "instructional_howto": 0.0,
+      "brand_voice": 0.0
+    }
+  },
+  {
+    "ad_id": "ad_10",
+    "original_text": "Transform your mornings with the 5-minute routine that energizes thousands of busy professionals",
+    "clean_text": "Transform your mornings with the 5-minute routine that energizes thousands of busy professionals",
+    "typology_labels": [
+      "Urgency / Scarcity",
+      "Emotional Appeal",
+      "Aspirational / Lifestyle"
+    ],
+    "typology_count": 3,
+    "confidence_scores": {
+      "urgency_scarcity": 4.800000000000001,
+      "social_proof": 0.0,
+      "emotional_appeal": 0.8,
+      "value_proposition": 0.0,
+      "problem_solution": 0.0,
+      "aspirational_lifestyle": 0.8,
+      "instructional_howto": 0.0,
+      "brand_voice": 0.0
+    },
+    "classified_at": "2025-06-29T08:36:26.377327",
+    "typologies": {
+      "urgency_scarcity": {
+        "name": "Urgency / Scarcity",
+        "score": 4.800000000000001,
+        "threshold": 0.8,
+        "patterns_matched": [
+          "Transform",
+          "your",
+          "mornings",
+          "with",
+          "the",
+          "minute",
+          "routine",
+          "that",
+          "energizes",
+          "thousands",
+          "busy",
+          "professionals"
+        ],
+        "description": "Drive immediate action through FOMO or limited availability"
+      },
+      "emotional_appeal": {
+        "name": "Emotional Appeal",
+        "score": 0.8,
+        "threshold": 0.7,
+        "patterns_matched": [
+          "Transform"
+        ],
+        "description": "Evoke feelings to drive engagement or identification"
+      },
+      "aspirational_lifestyle": {
+        "name": "Aspirational / Lifestyle",
+        "score": 0.8,
+        "threshold": 0.7,
+        "patterns_matched": [
+          "Transform your"
+        ],
+        "description": "Align with user identity, aesthetics, or future self-image"
+      }
+    },
+    "matched_patterns": {
+      "urgency_scarcity": [
+        "Transform",
+        "your",
+        "mornings",
+        "with",
+        "the",
+        "minute",
+        "routine",
+        "that",
+        "energizes",
+        "thousands",
+        "busy",
+        "professionals"
+      ],
+      "social_proof": [],
+      "emotional_appeal": [
+        "Transform"
+      ],
+      "value_proposition": [],
+      "problem_solution": [],
+      "aspirational_lifestyle": [
+        "Transform your"
+      ],
+      "instructional_howto": [],
+      "brand_voice": []
+    },
+    "text_features": {
+      "word_count": 13,
+      "char_count": 96,
+      "sentence_count": 1,
+      "all_caps_words": 0,
+      "caps_ratio": 0.010416666666666666,
+      "exclamation_count": 0,
+      "question_count": 0,
+      "emoji_count": 0,
+      "number_count": 0,
+      "percentage_mentions": 0,
+      "price_mentions": 0,
+      "cta_signals": 0
+    },
+    "buzzwords": [],
+    "cta_phrases": [],
+    "sentiment_indicators": {
+      "positive_count": 0,
+      "negative_count": 0,
+      "urgency_count": 0
+    },
+    "normalized_scores": {
+      "urgency_scarcity": 1.0,
+      "social_proof": 0.0,
+      "emotional_appeal": 0.16666666666666666,
+      "value_proposition": 0.0,
+      "problem_solution": 0.0,
+      "aspirational_lifestyle": 0.16666666666666666,
+      "instructional_howto": 0.0,
+      "brand_voice": 0.0
+    }
+  },
+  {
+    "ad_id": "ad_11",
+    "original_text": "Free shipping, free returns, free upgrades - because premium quality shouldn't cost extra",
+    "clean_text": "Free shipping, free returns, free upgrades - because premium quality shouldn't cost extra",
+    "typology_labels": [
+      "Urgency / Scarcity",
+      "Value Proposition / Deal",
+      "Aspirational / Lifestyle"
+    ],
+    "typology_count": 3,
+    "confidence_scores": {
+      "urgency_scarcity": 3.6,
+      "social_proof": 0.0,
+      "emotional_appeal": 0.0,
+      "value_proposition": 2.9999999999999996,
+      "problem_solution": 0.0,
+      "aspirational_lifestyle": 0.9,
+      "instructional_howto": 0.0,
+      "brand_voice": 0.0
+    },
+    "classified_at": "2025-06-29T08:36:26.377455",
+    "typologies": {
+      "urgency_scarcity": {
+        "name": "Urgency / Scarcity",
+        "score": 3.6,
+        "threshold": 0.8,
+        "patterns_matched": [
+          "Free",
+          "free",
+          "free",
+          "upgrades",
+          "because",
+          "premium",
+          "quality",
+          "cost",
+          "extra"
+        ],
+        "description": "Drive immediate action through FOMO or limited availability"
+      },
+      "value_proposition": {
+        "name": "Value Proposition / Deal",
+        "score": 2.9999999999999996,
+        "threshold": 0.8,
+        "patterns_matched": [
+          "Free shipping",
+          "Free",
+          "free",
+          "free"
+        ],
+        "description": "Emphasize savings, ROI, or product advantage"
+      },
+      "aspirational_lifestyle": {
+        "name": "Aspirational / Lifestyle",
+        "score": 0.9,
+        "threshold": 0.7,
+        "patterns_matched": [
+          "premium"
+        ],
+        "description": "Align with user identity, aesthetics, or future self-image"
+      }
+    },
+    "matched_patterns": {
+      "urgency_scarcity": [
+        "Free",
+        "free",
+        "free",
+        "upgrades",
+        "because",
+        "premium",
+        "quality",
+        "cost",
+        "extra"
+      ],
+      "social_proof": [],
+      "emotional_appeal": [],
+      "value_proposition": [
+        "Free shipping",
+        "Free",
+        "free",
+        "free"
+      ],
+      "problem_solution": [],
+      "aspirational_lifestyle": [
+        "premium"
+      ],
+      "instructional_howto": [],
+      "brand_voice": []
+    },
+    "text_features": {
+      "word_count": 13,
+      "char_count": 89,
+      "sentence_count": 1,
+      "all_caps_words": 0,
+      "caps_ratio": 0.011235955056179775,
+      "exclamation_count": 0,
+      "question_count": 0,
+      "emoji_count": 0,
+      "number_count": 0,
+      "percentage_mentions": 0,
+      "price_mentions": 0,
+      "cta_signals": 0
+    },
+    "buzzwords": [],
+    "cta_phrases": [],
+    "sentiment_indicators": {
+      "positive_count": 0,
+      "negative_count": 0,
+      "urgency_count": 0
+    },
+    "normalized_scores": {
+      "urgency_scarcity": 1.0,
+      "social_proof": 0.0,
+      "emotional_appeal": 0.0,
+      "value_proposition": 0.8333333333333331,
+      "problem_solution": 0.0,
+      "aspirational_lifestyle": 0.25,
+      "instructional_howto": 0.0,
+      "brand_voice": 0.0
+    }
+  },
+  {
+    "ad_id": "ad_12",
+    "original_text": "Struggling with work-life balance? Here's how successful leaders manage it all effortlessly",
+    "clean_text": "Struggling with work-life balance? Here's how successful leaders manage it all effortlessly",
+    "typology_labels": [
+      "Urgency / Scarcity",
+      "Problem / Solution Framing",
+      "Instructional / How-To"
+    ],
+    "typology_count": 3,
+    "confidence_scores": {
+      "urgency_scarcity": 3.6,
+      "social_proof": 0.0,
+      "emotional_appeal": 0.0,
+      "value_proposition": 0.0,
+      "problem_solution": 1.0,
+      "aspirational_lifestyle": 0.0,
+      "instructional_howto": 0.9,
+      "brand_voice": 0.0
+    },
+    "classified_at": "2025-06-29T08:36:26.377577",
+    "typologies": {
+      "urgency_scarcity": {
+        "name": "Urgency / Scarcity",
+        "score": 3.6,
+        "threshold": 0.8,
+        "patterns_matched": [
+          "Struggling",
+          "with",
+          "life",
+          "how",
+          "successful",
+          "leaders",
+          "manage",
+          "all",
+          "effortlessly"
+        ],
+        "description": "Drive immediate action through FOMO or limited availability"
+      },
+      "problem_solution": {
+        "name": "Problem / Solution Framing",
+        "score": 1.0,
+        "threshold": 0.8,
+        "patterns_matched": [
+          "Struggling with"
+        ],
+        "description": "Highlight pain point and position product as answer"
+      },
+      "instructional_howto": {
+        "name": "Instructional / How-To",
+        "score": 0.9,
+        "threshold": 0.7,
+        "patterns_matched": [
+          "(\"Here's how\", '')"
+        ],
+        "description": "Convey practical steps or educational tone"
+      }
+    },
+    "matched_patterns": {
+      "urgency_scarcity": [
+        "Struggling",
+        "with",
+        "life",
+        "how",
+        "successful",
+        "leaders",
+        "manage",
+        "all",
+        "effortlessly"
+      ],
+      "social_proof": [],
+      "emotional_appeal": [],
+      "value_proposition": [],
+      "problem_solution": [
+        "Struggling with"
+      ],
+      "aspirational_lifestyle": [],
+      "instructional_howto": [
+        "(\"Here's how\", '')"
+      ],
+      "brand_voice": []
+    },
+    "text_features": {
+      "word_count": 12,
+      "char_count": 91,
+      "sentence_count": 1,
+      "all_caps_words": 0,
+      "caps_ratio": 0.02197802197802198,
+      "exclamation_count": 0,
+      "question_count": 1,
+      "emoji_count": 0,
+      "number_count": 0,
+      "percentage_mentions": 0,
+      "price_mentions": 0,
+      "cta_signals": 0
+    },
+    "buzzwords": [],
+    "cta_phrases": [],
+    "sentiment_indicators": {
+      "positive_count": 0,
+      "negative_count": 0,
+      "urgency_count": 0
+    },
+    "normalized_scores": {
+      "urgency_scarcity": 1.0,
+      "social_proof": 0.0,
+      "emotional_appeal": 0.0,
+      "value_proposition": 0.0,
+      "problem_solution": 0.2777777777777778,
+      "aspirational_lifestyle": 0.0,
+      "instructional_howto": 0.25,
+      "brand_voice": 0.0
+    }
+  },
+  {
+    "ad_id": "ad_13",
+    "original_text": "Join the movement: 2 million people have already switched to sustainable, guilt-free shopping",
+    "clean_text": "Join the movement: 2 million people have already switched to sustainable, guilt-free shopping",
+    "typology_labels": [
+      "Urgency / Scarcity"
+    ],
+    "typology_count": 1,
+    "confidence_scores": {
+      "urgency_scarcity": 3.6,
+      "social_proof": 0.0,
+      "emotional_appeal": 0.0,
+      "value_proposition": 0.7,
+      "problem_solution": 0.0,
+      "aspirational_lifestyle": 0.0,
+      "instructional_howto": 0.0,
+      "brand_voice": 0.0
+    },
+    "classified_at": "2025-06-29T08:36:26.377694",
+    "typologies": {
+      "urgency_scarcity": {
+        "name": "Urgency / Scarcity",
+        "score": 3.6,
+        "threshold": 0.8,
+        "patterns_matched": [
+          "Join",
+          "the",
+          "million",
+          "people",
+          "have",
+          "already",
+          "switched",
+          "free",
+          "shopping"
+        ],
+        "description": "Drive immediate action through FOMO or limited availability"
+      }
+    },
+    "matched_patterns": {
+      "urgency_scarcity": [
+        "Join",
+        "the",
+        "million",
+        "people",
+        "have",
+        "already",
+        "switched",
+        "free",
+        "shopping"
+      ],
+      "social_proof": [],
+      "emotional_appeal": [],
+      "value_proposition": [
+        "free"
+      ],
+      "problem_solution": [],
+      "aspirational_lifestyle": [],
+      "instructional_howto": [],
+      "brand_voice": []
+    },
+    "text_features": {
+      "word_count": 13,
+      "char_count": 93,
+      "sentence_count": 1,
+      "all_caps_words": 0,
+      "caps_ratio": 0.010752688172043012,
+      "exclamation_count": 0,
+      "question_count": 0,
+      "emoji_count": 0,
+      "number_count": 0,
+      "percentage_mentions": 0,
+      "price_mentions": 0,
+      "cta_signals": 0
+    },
+    "buzzwords": [],
+    "cta_phrases": [],
+    "sentiment_indicators": {
+      "positive_count": 0,
+      "negative_count": 0,
+      "urgency_count": 0
+    },
+    "normalized_scores": {
+      "urgency_scarcity": 1.0,
+      "social_proof": 0.0,
+      "emotional_appeal": 0.0,
+      "value_proposition": 0.19444444444444442,
+      "problem_solution": 0.0,
+      "aspirational_lifestyle": 0.0,
+      "instructional_howto": 0.0,
+      "brand_voice": 0.0
+    }
+  },
+  {
+    "ad_id": "ad_14",
+    "original_text": "Don't let another day pass wondering \"what if\" - your breakthrough moment starts here",
+    "clean_text": "Don't let another day pass wondering \"what if\" - your breakthrough moment starts here",
+    "typology_labels": [
+      "Urgency / Scarcity",
+      "Brand Voice / Meta Language"
+    ],
+    "typology_count": 2,
+    "confidence_scores": {
+      "urgency_scarcity": 4.4,
+      "social_proof": 0.0,
+      "emotional_appeal": 0.0,
+      "value_proposition": 0.0,
+      "problem_solution": 0.0,
+      "aspirational_lifestyle": 0.0,
+      "instructional_howto": 0.0,
+      "brand_voice": 0.6
+    },
+    "classified_at": "2025-06-29T08:36:26.377807",
+    "typologies": {
+      "urgency_scarcity": {
+        "name": "Urgency / Scarcity",
+        "score": 4.4,
+        "threshold": 0.8,
+        "patterns_matched": [
+          "let",
+          "another",
+          "day",
+          "pass",
+          "wondering",
+          "what",
+          "your",
+          "breakthrough",
+          "moment",
+          "starts",
+          "here"
+        ],
+        "description": "Drive immediate action through FOMO or limited availability"
+      },
+      "brand_voice": {
+        "name": "Brand Voice / Meta Language",
+        "score": 0.6,
+        "threshold": 0.6,
+        "patterns_matched": [
+          "\"what if\""
+        ],
+        "description": "Use humor, irony, or self-referential tone"
+      }
+    },
+    "matched_patterns": {
+      "urgency_scarcity": [
+        "let",
+        "another",
+        "day",
+        "pass",
+        "wondering",
+        "what",
+        "your",
+        "breakthrough",
+        "moment",
+        "starts",
+        "here"
+      ],
+      "social_proof": [],
+      "emotional_appeal": [],
+      "value_proposition": [],
+      "problem_solution": [],
+      "aspirational_lifestyle": [],
+      "instructional_howto": [],
+      "brand_voice": [
+        "\"what if\""
+      ]
+    },
+    "text_features": {
+      "word_count": 14,
+      "char_count": 85,
+      "sentence_count": 1,
+      "all_caps_words": 0,
+      "caps_ratio": 0.011764705882352941,
+      "exclamation_count": 0,
+      "question_count": 0,
+      "emoji_count": 0,
+      "number_count": 0,
+      "percentage_mentions": 0,
+      "price_mentions": 0,
+      "cta_signals": 0
+    },
+    "buzzwords": [],
+    "cta_phrases": [],
+    "sentiment_indicators": {
+      "positive_count": 0,
+      "negative_count": 1,
+      "urgency_count": 0
+    },
+    "normalized_scores": {
+      "urgency_scarcity": 1.0,
+      "social_proof": 0.0,
+      "emotional_appeal": 0.0,
+      "value_proposition": 0.0,
+      "problem_solution": 0.0,
+      "aspirational_lifestyle": 0.0,
+      "instructional_howto": 0.0,
+      "brand_voice": 0.13636363636363635
+    }
+  },
+  {
+    "ad_id": "ad_15",
+    "original_text": "Unlock the insider secrets that industry experts don't want you to know about investing",
+    "clean_text": "Unlock the insider secrets that industry experts don't want you to know about investing",
+    "typology_labels": [
+      "Urgency / Scarcity"
+    ],
+    "typology_count": 1,
+    "confidence_scores": {
+      "urgency_scarcity": 4.800000000000001,
+      "social_proof": 0.0,
+      "emotional_appeal": 0.0,
+      "value_proposition": 0.0,
+      "problem_solution": 0.0,
+      "aspirational_lifestyle": 0.0,
+      "instructional_howto": 0.0,
+      "brand_voice": 0.0
+    },
+    "classified_at": "2025-06-29T08:36:26.377920",
+    "typologies": {
+      "urgency_scarcity": {
+        "name": "Urgency / Scarcity",
+        "score": 4.800000000000001,
+        "threshold": 0.8,
+        "patterns_matched": [
+          "Unlock",
+          "the",
+          "insider",
+          "secrets",
+          "that",
+          "industry",
+          "experts",
+          "want",
+          "you",
+          "know",
+          "about",
+          "investing"
+        ],
+        "description": "Drive immediate action through FOMO or limited availability"
+      }
+    },
+    "matched_patterns": {
+      "urgency_scarcity": [
+        "Unlock",
+        "the",
+        "insider",
+        "secrets",
+        "that",
+        "industry",
+        "experts",
+        "want",
+        "you",
+        "know",
+        "about",
+        "investing"
+      ],
+      "social_proof": [],
+      "emotional_appeal": [],
+      "value_proposition": [],
+      "problem_solution": [],
+      "aspirational_lifestyle": [],
+      "instructional_howto": [],
+      "brand_voice": []
+    },
+    "text_features": {
+      "word_count": 14,
+      "char_count": 87,
+      "sentence_count": 1,
+      "all_caps_words": 0,
+      "caps_ratio": 0.011494252873563218,
+      "exclamation_count": 0,
+      "question_count": 0,
+      "emoji_count": 0,
+      "number_count": 0,
+      "percentage_mentions": 0,
+      "price_mentions": 0,
+      "cta_signals": 0
+    },
+    "buzzwords": [],
+    "cta_phrases": [],
+    "sentiment_indicators": {
+      "positive_count": 0,
+      "negative_count": 1,
+      "urgency_count": 1
+    },
+    "normalized_scores": {
+      "urgency_scarcity": 1.0,
+      "social_proof": 0.0,
+      "emotional_appeal": 0.0,
+      "value_proposition": 0.0,
+      "problem_solution": 0.0,
+      "aspirational_lifestyle": 0.0,
+      "instructional_howto": 0.0,
+      "brand_voice": 0.0
+    }
+  },
+  {
+    "ad_id": "ad_16",
+    "original_text": "Perfect for busy parents: meal planning that actually fits your chaotic schedule",
+    "clean_text": "Perfect for busy parents: meal planning that actually fits your chaotic schedule",
+    "typology_labels": [
+      "Urgency / Scarcity",
+      "Aspirational / Lifestyle"
+    ],
+    "typology_count": 2,
+    "confidence_scores": {
+      "urgency_scarcity": 4.4,
+      "social_proof": 0.0,
+      "emotional_appeal": 0.0,
+      "value_proposition": 0.0,
+      "problem_solution": 0.0,
+      "aspirational_lifestyle": 0.8,
+      "instructional_howto": 0.0,
+      "brand_voice": 0.5
+    },
+    "classified_at": "2025-06-29T08:36:26.378027",
+    "typologies": {
+      "urgency_scarcity": {
+        "name": "Urgency / Scarcity",
+        "score": 4.4,
+        "threshold": 0.8,
+        "patterns_matched": [
+          "Perfect",
+          "for",
+          "busy",
+          "meal",
+          "planning",
+          "that",
+          "actually",
+          "fits",
+          "your",
+          "chaotic",
+          "schedule"
+        ],
+        "description": "Drive immediate action through FOMO or limited availability"
+      },
+      "aspirational_lifestyle": {
+        "name": "Aspirational / Lifestyle",
+        "score": 0.8,
+        "threshold": 0.7,
+        "patterns_matched": [
+          "Perfect for"
+        ],
+        "description": "Align with user identity, aesthetics, or future self-image"
+      }
+    },
+    "matched_patterns": {
+      "urgency_scarcity": [
+        "Perfect",
+        "for",
+        "busy",
+        "meal",
+        "planning",
+        "that",
+        "actually",
+        "fits",
+        "your",
+        "chaotic",
+        "schedule"
+      ],
+      "social_proof": [],
+      "emotional_appeal": [],
+      "value_proposition": [],
+      "problem_solution": [],
+      "aspirational_lifestyle": [
+        "Perfect for"
+      ],
+      "instructional_howto": [],
+      "brand_voice": [
+        "actually"
+      ]
+    },
+    "text_features": {
+      "word_count": 12,
+      "char_count": 80,
+      "sentence_count": 1,
+      "all_caps_words": 0,
+      "caps_ratio": 0.0125,
+      "exclamation_count": 0,
+      "question_count": 0,
+      "emoji_count": 0,
+      "number_count": 0,
+      "percentage_mentions": 0,
+      "price_mentions": 0,
+      "cta_signals": 0
+    },
+    "buzzwords": [],
+    "cta_phrases": [],
+    "sentiment_indicators": {
+      "positive_count": 1,
+      "negative_count": 0,
+      "urgency_count": 0
+    },
+    "normalized_scores": {
+      "urgency_scarcity": 1.0,
+      "social_proof": 0.0,
+      "emotional_appeal": 0.0,
+      "value_proposition": 0.0,
+      "problem_solution": 0.0,
+      "aspirational_lifestyle": 0.18181818181818182,
+      "instructional_howto": 0.0,
+      "brand_voice": 0.11363636363636363
+    }
+  },
+  {
+    "ad_id": "ad_17",
+    "original_text": "Limited edition collection drops tonight at midnight - set your alarms, this won't last!",
+    "clean_text": "Limited edition collection drops tonight at midnight - set your alarms, this won't last!",
+    "typology_labels": [
+      "Urgency / Scarcity"
+    ],
+    "typology_count": 1,
+    "confidence_scores": {
+      "urgency_scarcity": 4.2,
+      "social_proof": 0.0,
+      "emotional_appeal": 0.0,
+      "value_proposition": 0.0,
+      "problem_solution": 0.0,
+      "aspirational_lifestyle": 0.0,
+      "instructional_howto": 0.0,
+      "brand_voice": 0.0
+    },
+    "classified_at": "2025-06-29T08:36:26.378139",
+    "typologies": {
+      "urgency_scarcity": {
+        "name": "Urgency / Scarcity",
+        "score": 4.2,
+        "threshold": 0.8,
+        "patterns_matched": [
+          "Limited",
+          "Limited",
+          "edition",
+          "collection",
+          "drops",
+          "tonight",
+          "midnight",
+          "set",
+          "your",
+          "this"
+        ],
+        "description": "Drive immediate action through FOMO or limited availability"
+      }
+    },
+    "matched_patterns": {
+      "urgency_scarcity": [
+        "Limited",
+        "Limited",
+        "edition",
+        "collection",
+        "drops",
+        "tonight",
+        "midnight",
+        "set",
+        "your",
+        "this"
+      ],
+      "social_proof": [],
+      "emotional_appeal": [],
+      "value_proposition": [],
+      "problem_solution": [],
+      "aspirational_lifestyle": [],
+      "instructional_howto": [],
+      "brand_voice": []
+    },
+    "text_features": {
+      "word_count": 14,
+      "char_count": 88,
+      "sentence_count": 1,
+      "all_caps_words": 0,
+      "caps_ratio": 0.011363636363636364,
+      "exclamation_count": 1,
+      "question_count": 0,
+      "emoji_count": 0,
+      "number_count": 0,
+      "percentage_mentions": 0,
+      "price_mentions": 0,
+      "cta_signals": 0
+    },
+    "buzzwords": [],
+    "cta_phrases": [],
+    "sentiment_indicators": {
+      "positive_count": 0,
+      "negative_count": 0,
+      "urgency_count": 0
+    },
+    "normalized_scores": {
+      "urgency_scarcity": 1.0,
+      "social_proof": 0.0,
+      "emotional_appeal": 0.0,
+      "value_proposition": 0.0,
+      "problem_solution": 0.0,
+      "aspirational_lifestyle": 0.0,
+      "instructional_howto": 0.0,
+      "brand_voice": 0.0
+    }
+  },
+  {
+    "ad_id": "ad_18",
+    "original_text": "Ready to 10x your productivity? Discover the tools that changed how we work forever",
+    "clean_text": "Ready to 10x your productivity? Discover the tools that changed how we work forever",
+    "typology_labels": [
+      "Urgency / Scarcity"
+    ],
+    "typology_count": 1,
+    "confidence_scores": {
+      "urgency_scarcity": 4.0,
+      "social_proof": 0.0,
+      "emotional_appeal": 0.0,
+      "value_proposition": 0.0,
+      "problem_solution": 0.0,
+      "aspirational_lifestyle": 0.0,
+      "instructional_howto": 0.6,
+      "brand_voice": 0.0
+    },
+    "classified_at": "2025-06-29T08:36:26.378255",
+    "typologies": {
+      "urgency_scarcity": {
+        "name": "Urgency / Scarcity",
+        "score": 4.0,
+        "threshold": 0.8,
+        "patterns_matched": [
+          "Ready",
+          "your",
+          "Discover",
+          "the",
+          "tools",
+          "that",
+          "changed",
+          "how",
+          "work",
+          "forever"
+        ],
+        "description": "Drive immediate action through FOMO or limited availability"
+      }
+    },
+    "matched_patterns": {
+      "urgency_scarcity": [
+        "Ready",
+        "your",
+        "Discover",
+        "the",
+        "tools",
+        "that",
+        "changed",
+        "how",
+        "work",
+        "forever"
+      ],
+      "social_proof": [],
+      "emotional_appeal": [],
+      "value_proposition": [],
+      "problem_solution": [],
+      "aspirational_lifestyle": [],
+      "instructional_howto": [
+        "Discover"
+      ],
+      "brand_voice": []
+    },
+    "text_features": {
+      "word_count": 14,
+      "char_count": 83,
+      "sentence_count": 1,
+      "all_caps_words": 0,
+      "caps_ratio": 0.024096385542168676,
+      "exclamation_count": 0,
+      "question_count": 1,
+      "emoji_count": 0,
+      "number_count": 0,
+      "percentage_mentions": 0,
+      "price_mentions": 0,
+      "cta_signals": 0
+    },
+    "buzzwords": [],
+    "cta_phrases": [],
+    "sentiment_indicators": {
+      "positive_count": 0,
+      "negative_count": 0,
+      "urgency_count": 0
+    },
+    "normalized_scores": {
+      "urgency_scarcity": 1.0,
+      "social_proof": 0.0,
+      "emotional_appeal": 0.0,
+      "value_proposition": 0.0,
+      "problem_solution": 0.0,
+      "aspirational_lifestyle": 0.0,
+      "instructional_howto": 0.15,
+      "brand_voice": 0.0
+    }
+  },
+  {
+    "ad_id": "ad_19",
+    "original_text": "Think all protein powders taste like chalk? We thought so too, until we created this",
+    "clean_text": "Think all protein powders taste like chalk? We thought so too, until we created this",
+    "typology_labels": [
+      "Urgency / Scarcity"
+    ],
+    "typology_count": 1,
+    "confidence_scores": {
+      "urgency_scarcity": 4.0,
+      "social_proof": 0.0,
+      "emotional_appeal": 0.0,
+      "value_proposition": 0.0,
+      "problem_solution": 0.0,
+      "aspirational_lifestyle": 0.0,
+      "instructional_howto": 0.0,
+      "brand_voice": 0.0
+    },
+    "classified_at": "2025-06-29T08:36:26.378376",
+    "typologies": {
+      "urgency_scarcity": {
+        "name": "Urgency / Scarcity",
+        "score": 4.0,
+        "threshold": 0.8,
+        "patterns_matched": [
+          "Think",
+          "all",
+          "protein",
+          "powders",
+          "taste",
+          "like",
+          "thought",
+          "until",
+          "created",
+          "this"
+        ],
+        "description": "Drive immediate action through FOMO or limited availability"
+      }
+    },
+    "matched_patterns": {
+      "urgency_scarcity": [
+        "Think",
+        "all",
+        "protein",
+        "powders",
+        "taste",
+        "like",
+        "thought",
+        "until",
+        "created",
+        "this"
+      ],
+      "social_proof": [],
+      "emotional_appeal": [],
+      "value_proposition": [],
+      "problem_solution": [],
+      "aspirational_lifestyle": [],
+      "instructional_howto": [],
+      "brand_voice": []
+    },
+    "text_features": {
+      "word_count": 15,
+      "char_count": 84,
+      "sentence_count": 1,
+      "all_caps_words": 0,
+      "caps_ratio": 0.023809523809523808,
+      "exclamation_count": 0,
+      "question_count": 1,
+      "emoji_count": 0,
+      "number_count": 0,
+      "percentage_mentions": 0,
+      "price_mentions": 0,
+      "cta_signals": 0
+    },
+    "buzzwords": [],
+    "cta_phrases": [],
+    "sentiment_indicators": {
+      "positive_count": 0,
+      "negative_count": 0,
+      "urgency_count": 0
+    },
+    "normalized_scores": {
+      "urgency_scarcity": 1.0,
+      "social_proof": 0.0,
+      "emotional_appeal": 0.0,
+      "value_proposition": 0.0,
+      "problem_solution": 0.0,
+      "aspirational_lifestyle": 0.0,
+      "instructional_howto": 0.0,
+      "brand_voice": 0.0
+    }
+  }
+]

@@ -1,0 +1,123 @@
+# Ad Copy Typology Classification Rules
+# Based on the 8 core persuasion strategies
+
+typologies:
+  
+  urgency_scarcity:
+    name: "Urgency / Scarcity"
+    description: "Drive immediate action through FOMO or limited availability"
+    patterns:
+      - regex: "(?i)\\b(last chance|ends today|ends tonight|while supplies last|hurry|limited time|act now|don't wait)\\b"
+        weight: 1.0
+      - regex: "(?i)\\b(now only|today only|expires soon|running out|almost gone|final hours)\\b"
+        weight: 0.9
+      - regex: "(?i)\\b(limited|exclusive|countdown|deadline|urgent)\\b"
+        weight: 0.6
+      - regex: "[A-Z]{3,}(?=\\s|$)"  # All caps words
+        weight: 0.4
+    threshold: 0.8
+    
+  social_proof:
+    name: "Social Proof"
+    description: "Build trust through user validation or popularity signals"
+    patterns:
+      - regex: "(?i)\\b(\\d+[k\\+]?\\s*(customers?|users?|people|sold|reviews?))\\b"
+        weight: 1.0
+      - regex: "(?i)\\b(5[\\-\\s]*stars?|highly rated|best seller|most popular|everyone loves?)\\b"
+        weight: 0.9
+      - regex: "(?i)\\b(trusted by|loved by|customers love|join thousands|millions use)\\b"
+        weight: 0.8
+      - regex: "(?i)\\b(testimonial|review|rating|recommended)\\b"
+        weight: 0.5
+    threshold: 0.7
+    
+  emotional_appeal:
+    name: "Emotional Appeal"
+    description: "Evoke feelings to drive engagement or identification"
+    patterns:
+      - regex: "(?i)\\b(feel beautiful|make memories|find happiness|feel confident|experience joy)\\b"
+        weight: 1.0
+      - regex: "(?i)\\b(love|amazing|incredible|wonderful|fantastic|gorgeous|stunning)\\b"
+        weight: 0.6
+      - regex: "(?i)\\b(transform|inspire|empower|fulfill|achieve dreams)\\b"
+        weight: 0.8
+      - regex: "[😍❤️💕🥰😊🎉✨💫🌟]+"  # Emotional emojis
+        weight: 0.5
+    threshold: 0.7
+    
+  value_proposition:
+    name: "Value Proposition / Deal"
+    description: "Emphasize savings, ROI, or product advantage"
+    patterns:
+      - regex: "(?i)\\b(save \\d+%|\\d+% off|discount|special price|great deal)\\b"
+        weight: 1.0
+      - regex: "(?i)\\b(free shipping|free trial|no cost|better than|best price)\\b"
+        weight: 0.9
+      - regex: "(?i)\\b(value|savings?|affordable|cheap|budget|economical)\\b"
+        weight: 0.6
+      - regex: "\\$\\d+|\\d+% off|free"
+        weight: 0.7
+    threshold: 0.8
+    
+  problem_solution:
+    name: "Problem / Solution Framing"
+    description: "Highlight pain point and position product as answer"
+    patterns:
+      - regex: "(?i)\\b(tired of|struggling with|fed up with|sick of|can't stand)\\b"
+        weight: 1.0
+      - regex: "(?i)\\b(finally|solution|fix|solve|stop|end|eliminate)\\b"
+        weight: 0.8
+      - regex: "(?i)\\b(problem|issue|trouble|difficulty|challenge)\\b"
+        weight: 0.6
+      - regex: "(?i)\\?.*\\b(try|use|get|choose)\\b"  # Question followed by suggestion
+        weight: 0.7
+    threshold: 0.8
+    
+  aspirational_lifestyle:
+    name: "Aspirational / Lifestyle"
+    description: "Align with user identity, aesthetics, or future self-image"
+    patterns:
+      - regex: "(?i)\\b(effortless|chic|elegant|sophisticated|luxurious|premium)\\b"
+        weight: 0.9
+      - regex: "(?i)\\b(perfect for|ideal for|designed for|lifestyle|live your best)\\b"
+        weight: 0.8
+      - regex: "(?i)\\b(transform your|upgrade your|elevate your|enhance your)\\b"
+        weight: 0.8
+      - regex: "(?i)\\b(dream|aspire|imagine|envision|picture yourself)\\b"
+        weight: 0.7
+    threshold: 0.7
+    
+  instructional_howto:
+    name: "Instructional / How-To"
+    description: "Convey practical steps or educational tone"
+    patterns:
+      - regex: "(?i)\\b(how to|learn how|step by step|guide|tutorial)\\b"
+        weight: 1.0
+      - regex: "(?i)\\b(\\d+ (ways?|steps?|tips?) to|here's how|discover how)\\b"
+        weight: 0.9
+      - regex: "(?i)\\b(learn|discover|find out|understand|master)\\b"
+        weight: 0.6
+      - regex: "(?i)\\b(tip|trick|secret|method|technique)\\b"
+        weight: 0.7
+    threshold: 0.7
+    
+  brand_voice:
+    name: "Brand Voice / Meta Language"
+    description: "Use humor, irony, or self-referential tone"
+    patterns:
+      - regex: "(?i)\\b(not your average|we get it|let's be honest|real talk)\\b"
+        weight: 1.0
+      - regex: "\\([^)]+\\)|\"[^\"]+\""  # Parentheticals or quotes
+        weight: 0.6
+      - regex: "(?i)\\b(honestly|frankly|seriously|literally|actually)\\b"
+        weight: 0.5
+      - regex: "(?i)\\b(weird|awkward|obsessed|addicted|guilty)\\b"
+        weight: 0.7
+    threshold: 0.6
+
+# Global settings
+settings:
+  min_confidence: 0.5
+  max_labels_per_ad: 4
+  text_normalization: true
+  case_sensitive: false
