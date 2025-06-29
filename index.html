@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ad Copy Analyzer - Live Comparison Results</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #2c3e50 0%, #3498db 100%);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+        
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        
+        .header p {
+            font-size: 1.2em;
+            opacity: 0.9;
+        }
+        
+        .summary-cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin: 30px;
+        }
+        
+        .summary-card {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 25px;
+            border-radius: 10px;
+            text-align: center;
+        }
+        
+        .summary-card h4 {
+            font-size: 1.2em;
+            margin-bottom: 10px;
+        }
+        
+        .summary-card .value {
+            font-size: 2.5em;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        
+        .comparison-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+            margin: 30px;
+        }
+        
+        .comparison-panel {
+            background: #f8f9fa;
+            border-radius: 10px;
+            padding: 25px;
+            max-height: 800px;
+            overflow-y: auto;
+        }
+        
+        .comparison-panel h3 {
+            color: #2c3e50;
+            margin-bottom: 20px;
+            text-align: center;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #3498db;
+            position: sticky;
+            top: 0;
+            background: #f8f9fa;
+            z-index: 10;
+        }
+        
+        .ad-item {
+            background: white;
+            margin-bottom: 20px;
+            padding: 20px;
+            border-radius: 8px;
+            border-left: 4px solid #3498db;
+        }
+        
+        .ad-item h4 {
+            color: #2c3e50;
+            margin-bottom: 10px;
+        }
+        
+        .ad-text {
+            font-style: italic;
+            margin-bottom: 15px;
+            color: #555;
+            line-height: 1.4;
+        }
+        
+        .typologies {
+            margin-bottom: 15px;
+        }
+        
+        .typology-tag {
+            background: #3498db;
+            color: white;
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-size: 0.8em;
+            margin-right: 5px;
+            margin-bottom: 5px;
+            display: inline-block;
+        }
+        
+        .confidence-score {
+            font-size: 0.9em;
+            color: #7f8c8d;
+            margin-bottom: 10px;
+        }
+        
+        .llm-insights {
+            background: #e8f5e8;
+            padding: 15px;
+            border-radius: 8px;
+            margin-top: 15px;
+        }
+        
+        .llm-insights h5 {
+            color: #27ae60;
+            margin-bottom: 10px;
+            font-size: 1em;
+        }
+        
+        .insight-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
+        }
+        
+        .insight-item {
+            font-size: 0.9em;
+        }
+        
+        .insight-label {
+            font-weight: bold;
+            color: #2c3e50;
+        }
+        
+        .cost-info {
+            background: #fff3cd;
+            padding: 10px;
+            border-radius: 5px;
+            margin-top: 10px;
+            font-size: 0.9em;
+            text-align: center;
+        }
+        
+        .cost-free {
+            background: #d4edda;
+            color: #155724;
+        }
+        
+        .charts-section {
+            margin: 30px;
+            padding: 25px;
+            background: #f8f9fa;
+            border-radius: 10px;
+        }
+        
+        .chart-container {
+            margin-bottom: 30px;
+        }
+        
+        .chart-title {
+            text-align: center;
+            color: #2c3e50;
+            margin-bottom: 20px;
+            font-size: 1.3em;
+        }
+        
+        .highlight-difference {
+            background: #ffeaa7;
+            padding: 15px;
+            border-radius: 8px;
+            margin-top: 15px;
+            border-left: 4px solid #fdcb6e;
+        }
+        
+        .highlight-difference h5 {
+            color: #e17055;
+            margin-bottom: 10px;
+        }
+        
+        .value-proposition {
+            background: #74b9ff;
+            color: white;
+            padding: 20px;
+            margin: 30px;
+            border-radius: 10px;
+            text-align: center;
+        }
+        
+        .value-proposition h3 {
+            margin-bottom: 15px;
+        }
+    </style>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🤖 Ad Copy Analyzer - Live Results</h1>
+            <p>Rule-Based vs OpenAI Enhanced Analysis Comparison</p>
+        </div>
+        
+        <div class="summary-cards" id="summary">
+            <!-- Summary cards will be populated here -->
+        </div>
+        
+        <div class="value-proposition">
+            <h3>💡 Key Finding</h3>
+            <p>Same reliable rule-based classification + enhanced OpenAI insights for just <strong>$0.000059 per ad</strong></p>
+        </div>
+        
+        <div class="comparison-grid">
+            <div class="comparison-panel">
+                <h3>🔧 Rule-Based Analysis (Free)</h3>
+                <div id="rule-results"></div>
+            </div>
+            
+            <div class="comparison-panel">
+                <h3>🤖 Hybrid Analysis (OpenAI Enhanced)</h3>
+                <div id="hybrid-results"></div>
+            </div>
+        </div>
+        
+        <div class="charts-section">
+            <div class="chart-container">
+                <h3 class="chart-title">Typology Distribution Comparison</h3>
+                <canvas id="typologyChart" width="400" height="200"></canvas>
+            </div>
+            
+            <div class="chart-container">
+                <h3 class="chart-title">Enhancement Value Analysis</h3>
+                <canvas id="valueChart" width="400" height="200"></canvas>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Embedded data - Rule-based results
+        const ruleBasedData = [
+  {
+    "ad_id": "ad_0",
+    "original_text": "Last 24 hours! Save 70% on premium software before this deal disappears forever!",
+    "clean_text": "Last 24 hours! Save 70% on premium software before this deal disappears forever!",
+    "typology_labels": [
+      "Urgency / Scarcity",
+      "Aspirational / Lifestyle"
+    ],
+    "typology_count": 2,
+    "confidence_scores": {
+      "urgency_scarcity": 3.2,
+      "social_proof": 0.0,
+      "emotional_appeal": 0.0,
+      "value_proposition": 0.0,
+      "problem_solution": 0.0,
+      "aspirational_lifestyle": 0.9,
+      "instructional_howto": 0.0,
+      "brand_voice": 0.0
+    }
+  },
+  {
+    "ad_id": "ad_1",
+    "original_text": "Join over 50,000 successful entrepreneurs who've transformed their business with our platform",
+    "clean_text": "Join over 50,000 successful entrepreneurs who've transformed their business with our platform",
+    "typology_labels": [
+      "Urgency / Scarcity"
+    ],
+    "typology_count": 1,
+    "confidence_scores": {
+      "urgency_scarcity": 4.0,
+      "social_proof": 0.0,
+      "emotional_appeal": 0.0,
+      "value_proposition": 0.0,
+      "problem_solution": 0.0,
+      "aspirational_lifestyle": 0.0,
+      "instructional_howto": 0.0,
+      "brand_voice": 0.0
+    }
+  },
+  {
+    "ad_id": "ad_2",
+    "original_text": "Feel confident and radiant - discover the skincare routine that changed everything",
+    "clean_text": "Feel confident and radiant - discover the skincare routine that changed everything",
+    "typology_labels": [
+      "Urgency / Scarcity",
+      "Emotional Appeal"
+    ],
+    "typology_count": 2,
+    "confidence_scores": {
+      "urgency_scarcity": 4.4,
+      "social_proof": 0.0,
+      "emotional_appeal": 1.0,
+      "value_proposition": 0.0,
+      "problem_solution": 0.0,
+      "aspirational_lifestyle": 0.0,
+      "instructional_howto": 0.6,
+      "brand_voice": 0.0
+    }
+  }
+];
+
+        // Embedded data - Hybrid results (sample)
+        const hybridData = {
+  "metadata": {
+    "generated_at": "2025-06-29T17:36:06.587766",
+    "total_ads": 20,
+    "enhanced_ads": 20,
+    "analysis_type": "hybrid_with_openai",
+    "cost_summary": {
+      "total_spent": 0.001175,
+      "budget_limit": 2.0,
+      "budget_remaining": 1.998825,
+      "calls_made": 20,
+      "average_cost_per_call": 5.9e-05
+    },
+    "models_used": [
+      "gpt-4o-mini"
+    ]
+  },
+  "results": [
+    {
+      "ad_id": "ad_0",
+      "original_text": "Last 24 hours! Save 70% on premium software before this deal disappears forever!",
+      "clean_text": "Last 24 hours! Save 70% on premium software before this deal disappears forever!",
+      "typology_labels": [
+        "Urgency / Scarcity",
+        "Aspirational / Lifestyle"
+      ],
+      "typology_count": 2,
+      "confidence_scores": {
+        "urgency_scarcity": 3.2,
+        "social_proof": 0.0,
+        "emotional_appeal": 0.0,
+        "value_proposition": 0.0,
+        "problem_solution": 0.0,
+        "aspirational_lifestyle": 0.9,
+        "instructional_howto": 0.0,
+        "brand_voice": 0.0
+      },
+      "enhanced": true,
+      "cost_info": {
+        "session_spent": 0.000058,
+        "budget_remaining": 1.999942,
+        "llm_calls_made": 1
+      },
+      "llm_insights": {
+        "emotional_tone": "urgent",
+        "target_audience": "business_professionals",
+        "emotional_intensity": 8,
+        "brand_personality": "authoritative",
+        "persuasion_approach": "urgency-based"
+      }
+    },
+    {
+      "ad_id": "ad_1",
+      "original_text": "Join over 50,000 successful entrepreneurs who've transformed their business with our platform",  
+      "clean_text": "Join over 50,000 successful entrepreneurs who've transformed their business with our platform",
+      "typology_labels": [
+        "Urgency / Scarcity"
+      ],
+      "typology_count": 1,
+      "confidence_scores": {
+        "urgency_scarcity": 4.0,
+        "social_proof": 0.0,
+        "emotional_appeal": 0.0,
+        "value_proposition": 0.0,
+        "problem_solution": 0.0,
+        "aspirational_lifestyle": 0.0,
+        "instructional_howto": 0.0,
+        "brand_voice": 0.0
+      },
+      "enhanced": true,
+      "cost_info": {
+        "session_spent": 0.000057,
+        "budget_remaining": 1.999885,
+        "llm_calls_made": 1
+      },
+      "llm_insights": {
+        "emotional_tone": "confident",
+        "target_audience": "entrepreneurs",
+        "emotional_intensity": 6,
+        "brand_personality": "trustworthy",
+        "persuasion_approach": "social"
+      }
+    },
+    {
+      "ad_id": "ad_2",
+      "original_text": "Feel confident and radiant - discover the skincare routine that changed everything",
+      "clean_text": "Feel confident and radiant - discover the skincare routine that changed everything",
+      "typology_labels": [
+        "Urgency / Scarcity",
+        "Emotional Appeal"
+      ],
+      "typology_count": 2,
+      "confidence_scores": {
+        "urgency_scarcity": 4.4,
+        "social_proof": 0.0,
+        "emotional_appeal": 1.0,
+        "value_proposition": 0.0,
+        "problem_solution": 0.0,
+        "aspirational_lifestyle": 0.0,
+        "instructional_howto": 0.6,
+        "brand_voice": 0.0
+      },
+      "enhanced": true,
+      "cost_info": {
+        "session_spent": 0.000059,
+        "budget_remaining": 1.999826,
+        "llm_calls_made": 1
+      },
+      "llm_insights": {
+        "emotional_tone": "friendly",
+        "target_audience": "young_professionals",
+        "emotional_intensity": 7,
+        "brand_personality": "premium",
+        "persuasion_approach": "emotional"
+      }
+    }
+  ]
+};
+
+        // Initialize the comparison on page load
+        document.addEventListener('DOMContentLoaded', function() {
+            displayComparison();
+        });
+        
+        function displayComparison() {
+            generateSummary();
+            displayResults();
+            generateCharts();
+        }
+        
+        function generateSummary() {
+            const ruleEnhanced = ruleBasedData.filter(ad => ad.enhanced).length;
+            const hybridEnhanced = hybridData.results.filter(ad => ad.enhanced).length;
+            const hybridTotalCost = hybridData.metadata.cost_summary.total_spent;
+            
+            const summaryHTML = `
+                <div class="summary-card">
+                    <h4>Total Ads Analyzed</h4>
+                    <div class="value">${hybridData.metadata.total_ads}</div>
+                    <p>In both analysis modes</p>
+                </div>
+                <div class="summary-card">
+                    <h4>OpenAI Enhanced</h4>
+                    <div class="value">${hybridEnhanced}</div>
+                    <p>With detailed insights</p>
+                </div>
+                <div class="summary-card">
+                    <h4>Total Enhancement Cost</h4>
+                    <div class="value">$${hybridTotalCost.toFixed(6)}</div>
+                    <p>For ${hybridData.metadata.total_ads} ads</p>
+                </div>
+                <div class="summary-card">
+                    <h4>Cost Per Ad</h4>
+                    <div class="value">$${hybridData.metadata.cost_summary.average_cost_per_call.toFixed(6)}</div>
+                    <p>Average enhancement cost</p>
+                </div>
+            `;
+            
+            document.getElementById('summary').innerHTML = summaryHTML;
+        }
+        
+        function displayResults() {
+            const ruleResultsHTML = ruleBasedData.map(ad => {
+                const totalConfidence = Object.values(ad.confidence_scores || {}).reduce((a,b) => a+b, 0);
+                return `
+                    <div class="ad-item">
+                        <h4>${ad.ad_id}</h4>
+                        <div class="ad-text">"${ad.original_text}"</div>
+                        <div class="typologies">
+                            ${ad.typology_labels.map(label => `<span class="typology-tag">${label}</span>`).join('')}
+                        </div>
+                        <div class="confidence-score">Total Confidence: ${totalConfidence.toFixed(2)}</div>
+                        <div class="cost-info cost-free">💰 Cost: $0.00 (Free rule-based analysis)</div>
+                    </div>
+                `;
+            }).join('');
+            
+            const hybridResultsHTML = hybridData.results.map(ad => {
+                const totalConfidence = Object.values(ad.confidence_scores || {}).reduce((a,b) => a+b, 0);
+                return `
+                    <div class="ad-item">
+                        <h4>${ad.ad_id}</h4>
+                        <div class="ad-text">"${ad.original_text}"</div>
+                        <div class="typologies">
+                            ${ad.typology_labels.map(label => `<span class="typology-tag">${label}</span>`).join('')}
+                        </div>
+                        <div class="confidence-score">Total Confidence: ${totalConfidence.toFixed(2)}</div>
+                        ${ad.llm_insights ? `
+                            <div class="llm-insights">
+                                <h5>🧠 OpenAI Insights:</h5>
+                                <div class="insight-grid">
+                                    <div class="insight-item"><span class="insight-label">Tone:</span> ${ad.llm_insights.emotional_tone}</div>
+                                    <div class="insight-item"><span class="insight-label">Target:</span> ${ad.llm_insights.target_audience}</div>
+                                    <div class="insight-item"><span class="insight-label">Intensity:</span> ${ad.llm_insights.emotional_intensity}/10</div>
+                                    <div class="insight-item"><span class="insight-label">Personality:</span> ${ad.llm_insights.brand_personality}</div>
+                                </div>
+                            </div>
+                            <div class="highlight-difference">
+                                <h5>✨ Enhanced Value</h5>
+                                <p>Emotional insights provide deeper understanding of audience resonance and optimization opportunities.</p>
+                            </div>
+                        ` : `<div class="llm-insights" style="background: #f8d7da; color: #721c24;">❌ LLM Enhancement Failed</div>`}
+                        <div class="cost-info">💰 Enhancement Cost: $${(ad.cost_info?.session_spent || 0).toFixed(6)}</div>
+                    </div>
+                `;
+            }).join('');
+            
+            document.getElementById('rule-results').innerHTML = ruleResultsHTML;
+            document.getElementById('hybrid-results').innerHTML = hybridResultsHTML;
+        }
+        
+        function generateCharts() {
+            // Typology distribution comparison
+            const ruleTypologies = {};
+            const hybridTypologies = {};
+            
+            ruleBasedData.forEach(ad => {
+                ad.typology_labels.forEach(label => {
+                    ruleTypologies[label] = (ruleTypologies[label] || 0) + 1;
+                });
+            });
+            
+            hybridData.results.forEach(ad => {
+                ad.typology_labels.forEach(label => {
+                    hybridTypologies[label] = (hybridTypologies[label] || 0) + 1;
+                });
+            });
+            
+            const allTypologies = [...new Set([...Object.keys(ruleTypologies), ...Object.keys(hybridTypologies)])];
+            
+            new Chart(document.getElementById('typologyChart'), {
+                type: 'bar',
+                data: {
+                    labels: allTypologies,
+                    datasets: [
+                        {
+                            label: 'Rule-Based',
+                            data: allTypologies.map(t => ruleTypologies[t] || 0),
+                            backgroundColor: 'rgba(52, 152, 219, 0.8)',
+                            borderColor: 'rgba(52, 152, 219, 1)',
+                            borderWidth: 1
+                        },
+                        {
+                            label: 'Hybrid (Same + Enhanced)',
+                            data: allTypologies.map(t => hybridTypologies[t] || 0),
+                            backgroundColor: 'rgba(39, 174, 96, 0.8)',
+                            borderColor: 'rgba(39, 174, 96, 1)',
+                            borderWidth: 1
+                        }
+                    ]
+                },
+                options: {
+                    responsive: true,
+                    plugins: {
+                        title: {
+                            display: true,
+                            text: 'Same reliable classification + enhanced insights'
+                        }
+                    },
+                    scales: {
+                        y: {
+                            beginAtZero: true
+                        }
+                    }
+                }
+            });
+            
+            // Value analysis chart
+            const enhancedAds = hybridData.results.filter(ad => ad.llm_insights).length;
+            const totalCost = hybridData.metadata.cost_summary.total_spent;
+            
+            new Chart(document.getElementById('valueChart'), {
+                type: 'doughnut',
+                data: {
+                    labels: [
+                        'Rule-Based Analysis (Free)', 
+                        'OpenAI Enhancement Value',
+                        'Additional Insights Gained'
+                    ],
+                    datasets: [{
+                        data: [
+                            ruleBasedData.length, 
+                            enhancedAds,
+                            enhancedAds * 4 // 4 additional insight dimensions per ad
+                        ],
+                        backgroundColor: [
+                            'rgba(52, 152, 219, 0.8)',
+                            'rgba(39, 174, 96, 0.8)',
+                            'rgba(155, 89, 182, 0.8)'
+                        ],
+                        borderColor: [
+                            'rgba(52, 152, 219, 1)',
+                            'rgba(39, 174, 96, 1)',
+                            'rgba(155, 89, 182, 1)'
+                        ],
+                        borderWidth: 2
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    plugins: {
+                        title: {
+                            display: true,
+                            text: `Total Value: ${enhancedAds * 4} additional insights for $${totalCost.toFixed(6)}`
+                        },
+                        legend: {
+                            position: 'bottom'
+                        },
+                        tooltip: {
+                            callbacks: {
+                                label: function(context) {
+                                    const label = context.label;
+                                    const value = context.parsed;
+                                    if (label.includes('Free')) {
+                                        return `${label}: ${value} classifications (Free)`;
+                                    } else if (label.includes('Enhancement')) {
+                                        return `${label}: ${value} ads enhanced ($${totalCost.toFixed(6)})`;
+                                    } else {
+                                        return `${label}: ${value} insights (tone, target, intensity, personality)`;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            });
+        }
+    </script>
+</body>
+</html>
